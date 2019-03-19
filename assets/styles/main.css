@@ -1,7 +1,189 @@
 body {
   background: #000;
+  color: #fff;
 }
 
-h1 {
+.page-header {
+  font-family: Srisakdi, cursive;
+  text-align: center;
+  font-weight: 400;
+  /* border: thin inset #666; */
+  width: 40vw;
+  margin: 3px auto;
+}
+.page-header img {
+  width: 60px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.page-header span {
+  margin: 0 5px;
+}
+
+h1, span.h1 {
   color: #FF2734;
+  font-size: 48px;
+}
+h2, span.h2 {
+  color: #f80;
+  font-size: 36px;
+}
+
+.preview {
+  display: none;
+
+  margin: 0 auto;
+  text-align: center;
+  overflow:hidden;
+  border: inset #ddd thin;
+  width: 85vw;
+  height: 45vh;
+}
+.preview iframe {
+  width: 100%;
+  height: 60vh;
+  max-height: 100%;
+
+}
+
+.grid {
+  margin: auto;
+  /* border: thin gray outset;
+  padding: 2% 5%; */
+  text-align: center;
+}
+.item {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 125px;
+}
+
+.item article {
+  /* position: relative; */
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  margin: 15px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.item header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+
+
+
+.item article header .logo {
+  max-width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.item article header .logo img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.item header .title-bkg {
+  border-radius: 3px;
+  background-color: #eee;
+  opacity: 0.7;
+  padding: 2px 3px;
+
+  /* position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -20%; */
+}
+.item header .title {
+  display: block;
+  color: #000;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-family: Righteous, cursive;
+}
+.item .links {
+  background-color: #333;
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin: 0 auto;
+  width: 40px;
+  opacity: 0.8;
+}
+.item .links a.repo {
+  display: none;
+}
+.item .links a.deployed {
+  display: block;
+  text-decoration: none;
+  color: #f80;
+}
+.item:hover .links {
+  visibility: hidden;
+}
+
+/* .item:hover .links a.deployed {
+  display: none;
+}
+.item:hover .links a.repo {
+  display: inline;
+  text-decoration: none;
+  margin: 0 2px;
+  color: #0ff;
+} */
+
+.item a {
+  text-decoration: none;
+}
+
+.item article p {
+  font-family: Srisakdi, cursive;
+  display: block;
+  font-size: 14px;
+  max-width: 100px;
+  text-align: center;
+  margin: 1px auto;
+  color: #fff;
+}
+
+.item:hover {
+  background-color: #000;
+}
+.item:hover article {
+  background-color: #fff;
+}
+.item:hover header {
+  color: #000;
+}
+.item:hover .title-bkg {
+  background-color: #333;
+}
+.item:hover .title {
+  color: #fff;
+}
+.item:hover p {
+  color: #006;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 2px;
+  left: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+footer .copyright {
+  text-align: center;
+  margin: 0 auto;
 }

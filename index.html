@@ -1,14 +1,117 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <link href="assets/styles/main.css"rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" type="image/gif" href="assets/styles/images/ck.gif">
+      <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Righteous|Srisakdi" rel="stylesheet">
+      <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body class="container-fluid">
-      <h1> Portfolio Template </h1>
+      <header class="page-header">
+        <img src="assets/styles/images/ck.gif" alt="Logo">
+        <span class="h1">Charlie Kelly:</span>
+        <span class="h2">Portfolio</span>
+        <img src="assets/styles/images/ck.gif" alt="Logo">
+      </header>
+      <main class="grid">
+        <div class="item">
+          <article id="memory" class="app">
+            <header>
+              <div class="title-bkg">
+                <strong class="title">Memory Game</strong>
+              </div>
+              <div class="logo">
+                <img alt="Memory" src="assets/styles/images/memory.png">
+              </div>
+              <p class="description">My first (recent) web project</p>
+            </header>
+            <div class="links">
+              <a class="deployed" href="https://acharliekelly.github.io/memory">app</a>
+              <a class="repo" href="https://github.com/acharliekelly/memory">code</a>
+            </div>
+          </article>
+        </div>
+        <div class="item">
+          <article id="tictactoe" class="app">
+            <header>
+              <div class="title-bkg">
+                <strong class="title">Tic-Tac-Toe</strong>
+              </div>
+              <div class="logo">
+                <img alt="Tic-Tac-Toe Logo" src="assets/styles/images/x.png">
+              </div>
+              <p class="description">Exactly what it looks like</p>
+            </header>
+            <div class="links">
+              <a class="deployed" href="https://acharliekelly.github.io/ttt-client">app</a>
+              <a class="repo" href="https://github.com/acharliekelly/ttt-client">code</a>
+            </div>
+          </article>
+        </div>
+        <div class="item">
+          <article id="resumption" class="app">
+            <header>
+              <div class="title-bkg">
+                <strong class="title">Resumption</strong>
+              </div>
+              <div class="logo">
+                <img alt="Resumption" src="assets/styles/images/resumpt1.png">
+              </div>
+              <p class="description">Full-Stack application for hosting resume</p>
+            </header>
+            <div class="links">
+              <a class="deployed" href="https://acharliekelly.github.io/resumption-client">app</a>
+              <a class="repo" href="https://github.com/acharliekelly/resumption-client">front</a>
+              <a class="repo" href="https://github.com/acharliekelly/resumption-api">back</a>
+            </div>
+          </article>
+        </div>
+        <div class="item">
+          <article id="aane" class="site">
+            <header>
+              <div class="title-bkg">
+                <strong class="title">AANE</strong>
+              </div>
+              <div class="logo">
+                <img alt="AANE Logo" src="assets/styles/images/aane_logo.png">
+              </div>
+              <p class="description">
+                WordPress site that I maintained
+              </p>
+            </header>
+            <div class="links">
+              <a class="deployed" href="https://aane.org">site</a>
+            </div>
+          </article>
+        </div>
+        <div class="item">
+          <article id="cantimaginewhy" class="site">
+            <header>
+              <div class="title-bkg">
+                <strong class="title">Can&lsquo;t Imagine Why</strong>
+              </div>
+              <div class="logo">
+                <img alt="Memory Logo" src="assets/styles/images/CK-bw.png">
+              </div>
+              <p class="description">A little of my artwork</p>
+            </header>
+            <div class="links">
+              <a class="deployed" href="http://cantimaginewhy.com">site</a>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <div class="preview">
+        <iframe id="sitePreview"></iframe>
+      </div>
+
+      <footer>
+        <div class="copyright">&copy; 2019 by Charlie Kelly</div>
+      </footer>
     </body>
 </html>
