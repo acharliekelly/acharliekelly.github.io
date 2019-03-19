@@ -12,7 +12,7 @@ $(function() {
     })
   })
 
-  $('.page-header').on('click', closePreview)
+  $('body').on('click', closePreview)
 })
 
 const previewSite = (siteUrl) => {

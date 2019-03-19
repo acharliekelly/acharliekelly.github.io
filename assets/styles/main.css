@@ -43,13 +43,10 @@ h2, span.h2 {
   width: 100%;
   height: 60vh;
   max-height: 100%;
-
 }
 
 .grid {
   margin: auto;
-  /* border: thin gray outset;
-  padding: 2% 5%; */
   text-align: center;
 }
 .item {
