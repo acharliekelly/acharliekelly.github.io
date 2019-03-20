@@ -13,7 +13,25 @@ $(function() {
   })
 
   $('body').on('click', closePreview)
+
+  $('footer .contact li')
+    .on('mouseover', showFooterContact)
+    .on('mouseout', clearFooterContact)
+  $('footer .contact img').on('mouseover', showFooterContact)
 })
+
+const clearFooterContact = () => {
+  $('footer .contact-display').html('').css('visibility', 'hidden')
+}
+
+const showFooterContact = (event) => {
+  const item = $(event.target).closest('li')
+  const text = $(item).find('.contact-info').text()
+  const imgSrc = $(item).find('img').attr('src')
+  $('footer .contact-display')
+    .html(`<img src="${imgSrc}">${text}`)
+    .css('visibility', 'visible')
+}
 
 const previewSite = (siteUrl) => {
   $('.preview').show()
