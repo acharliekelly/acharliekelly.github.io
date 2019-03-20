@@ -48,6 +48,7 @@ h2, span.h2 {
 .grid {
   margin: auto;
   text-align: center;
+  /* border: 1px solid #f80; */
 }
 .item {
   display: inline-block;
@@ -75,7 +76,9 @@ h2, span.h2 {
 }
 
 
-
+.item a {
+  text-decoration: none;
+}
 
 .item article header .logo {
   max-width: 100px;
@@ -94,11 +97,6 @@ h2, span.h2 {
   background-color: #eee;
   opacity: 0.7;
   padding: 2px 3px;
-
-  /* position: absolute;
-  top: 20px;
-  left: 50%;
-  margin-left: -20%; */
 }
 .item header .title {
   display: block;
@@ -112,35 +110,36 @@ h2, span.h2 {
 .item .links {
   background-color: #333;
   border-radius: 2px;
-  padding: 2px 4px;
+  padding: 0 3px;
   margin: 0 auto;
   width: 40px;
   opacity: 0.8;
 }
+.item .links a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
 .item .links a.repo {
   display: none;
 }
-.item .links a.deployed {
-  display: block;
+.item .app .links a.deployed, .item .site .links a, .item:hover .site .links a {
+  display: inline;
   text-decoration: none;
   color: #f80;
 }
-.item:hover .links {
-  visibility: hidden;
-}
 
-/* .item:hover .links a.deployed {
+
+.item:hover .app .links {
+  max-width: 100px;
+}
+.item:hover .app .links a.deployed {
   display: none;
 }
-.item:hover .links a.repo {
+.item:hover .app .links a.repo {
   display: inline;
   text-decoration: none;
-  margin: 0 2px;
   color: #0ff;
-} */
-
-.item a {
-  text-decoration: none;
 }
 
 .item article p {
@@ -151,6 +150,8 @@ h2, span.h2 {
   text-align: center;
   margin: 1px auto;
   color: #fff;
+  /* border: 1px inset gray; */
+  max-height: 100px;
 }
 
 .item:hover {
@@ -177,18 +178,41 @@ footer {
   position: fixed;
   bottom: 2px;
   font-size: 14px;
-  background-color: #eee;
-  color: #333;
-  border-radius: 3px;
+  font-family: Righteous, cursive;
   width: 99%;
   text-align: center;
   margin: 1px auto;
+  vertical-align: middle;
+
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 1px 3px;
+  margin: 2px 5px;
+}
+footer div {
+  color: #000;
+
+
 }
 footer .contact {
   float: left;
+}
+.contact li {
+  list-style: none;
+  display: inline;
 
 }
+.contact li a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5px;
+}
+.contact li a img {
+  width: 25px;
+}
+
 footer .copyright {
+  margin: 10px 10px 0 0;
   float: right;
-  font-family: Righteous, cursive;
+  font-size: 24px;
 }
