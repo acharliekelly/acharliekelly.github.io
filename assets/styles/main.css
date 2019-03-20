@@ -176,11 +176,19 @@ h2, span.h2 {
 footer {
   position: fixed;
   bottom: 2px;
-  left: 45%;
+  font-size: 14px;
+  background-color: #eee;
+  color: #333;
+  border-radius: 3px;
+  width: 99%;
   text-align: center;
-  margin: 0 auto;
+  margin: 1px auto;
+}
+footer .contact {
+  float: left;
+
 }
 footer .copyright {
-  text-align: center;
-  margin: 0 auto;
+  float: right;
+  font-family: Righteous, cursive;
 }
