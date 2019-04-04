@@ -23,6 +23,11 @@ $(function() {
     $(this).on('click', () => {
       displayProject(id, url)
     })
+      .find('header')
+      .after('<div class="text-msg">Click for preview</div>')
+      .after(`<div class="visit"><a href="${url}" target="_blank">Visit</a></div>`)
+
+
   })
 
   // hide display window when user double-clicks anywhere
@@ -37,11 +42,14 @@ $(function() {
 
   // show the about section when you hover over the header
   $('.page-header').on('mouseover', showAbout)
+
+  skillIcons()
 })
 
 // display project info/preview
 const displayProject = (projectId, projectUrl) => {
   if ($('#mainDisplay').data('id') !== projectId) {
+    deactivateTabs()
     activateTab(projectId)
     showDisplayView()
     collapseDescription()
@@ -56,14 +64,19 @@ const clearFooterContact = () => {
 }
 
 const activateTab = (projectId) => {
-  $('.project').removeClass('active')
-  $('.project article').removeClass('active')
-  $(`#${projectId}`).addClass('active').parent('.project').addClass('active')
+  const projTab = $(`#${projectId}`)
+  projTab.addClass('active').parent('.project').addClass('active')
+  // const xColor = projTab.data('color')
+  // const rgb = HEX2RGB(xColor).join(',')
+  // projTab.css('background', `radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,0.8) 100%)`)
+
 }
 
 const deactivateTabs = () => {
   $('.project').removeClass('active')
   $('.project article').removeClass('active')
+  $('.info section').hide()
+  $('#mainDisplay').data('id', '')
 }
 
 // show footer contact info -
@@ -80,6 +93,10 @@ const showFooterContact = (event) => {
 
 // Show the about info
 const showAbout = () => {
+  // turn off any active tab
+  deactivateTabs()
+  $('section.project-description').hide()
+
   // show the #mainDisplay content
   showDisplayView()
 
@@ -90,7 +107,8 @@ const showAbout = () => {
     // set the display id
     $('#mainDisplay').data('id', 'aboutMe')
     // load the AboutMe section, then run skillIcons()
-    $('#descrip').load(getDesc('aboutMe'), skillIcons)
+    // $('#descrip').load(getDesc('aboutMe'), skillIcons)
+    $('#mainDisplay #aboutMe').show()
   }
 }
 
@@ -107,12 +125,8 @@ const collapseDescription = () => {
 // load a particular site's description
 const siteDescription = (siteId) => {
   $('#mainDisplay').data('id', siteId)
-  $('#descrip').load(getDesc(siteId), skillIcons)
-}
-
-// get the target for .load()
-const getDesc = (siteId) => {
-  return `assets/content/descriptions.html #${siteId}`
+  $('.info section').hide()
+  $('.info #' + siteId).show()
 }
 
 const getCurrentDisplayId = () => {

@@ -37,9 +37,10 @@ h2, .h2 {
 
 
 
-.grid {
+.projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .project {
@@ -51,7 +52,8 @@ h2, .h2 {
 
 }
 .project.active, .project.active:hover {
-  background-color: #f80;
+  background: #ddd;
+
 }
 
 .project article {
@@ -64,9 +66,24 @@ h2, .h2 {
   text-align: center;
 }
 .project article.active, .project:hover article.active {
-  background-color: #f80;
+  background: transparent;
 }
 
+.project article div {
+  /* margin-top: 20px; */
+}
+
+.project .visit {
+  display: none;
+}
+.project .visit a {
+  color: #000;
+  font-family: Srisakdi, cursive;
+  text-decoration: none;
+}
+.project .visit a:hover {
+  text-decoration: underline;
+}
 
 
 .project header {
@@ -103,7 +120,7 @@ h2, .h2 {
   font-variant: small-caps;
   font-weight: bold;
   text-align: center;
-  font-size: 20px;
+  font-size: 1rem;
   font-family: Righteous, cursive;
 }
 
@@ -112,7 +129,13 @@ h2, .h2 {
   font-family: Srisakdi, cursive;
   font-size: 12px;
   margin-top: 3px;
+}
+.project article.active .text-msg {
+  display: none;
+}
 
+.project article.active .visit {
+  display: block;
 }
 
 .project:hover {
@@ -200,4 +223,12 @@ footer .contact-display img {
   width: 30px;
   margin-right: 5px;
   vertical-align: bottom;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .project header .title {
+    font-size: 0.6rem;
+  }
+
 }
