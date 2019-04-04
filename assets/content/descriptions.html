@@ -19,7 +19,16 @@
       <h2>About Me</h2>
     </header>
     <img class="self-photo" src="https://i.imgur.com/5FoPezO.jpg" alt="Me">
-    <div class="body">TODO: description</div>
+    <div class="body">
+      <p>I'm a web developer based in Boston, MA.</p>
+      <p>I spent the past several years in the non-profit world, building things out of existing tools
+        for little or no money. Before that, though, I was a software engineer, and I recently decided to
+        get back into making things from scratch.</p>
+      <p>To that end, I recently completed a coding bootcamp at General Assembly. This experience helped
+        me re-familiarize myself with a developer mentality, as well as teaching me a number of technical
+        skills and tools that did not yet exist the last time I worked in software.</p>
+
+    </div>
     <div id="mySkills" class="icon-wordmark">
       <h3>Skills</h3>
       <div class="skill-set">
@@ -79,7 +88,13 @@
   <section class="project-description" id="memory" data-url="https://acharliekelly.github.io/memory/" data-icon="memory.png">
     <header class="title">Memory Game</header>
     <div class="overview">My very first web project (of 2019)</div>
-    <div class="details"></div>
+    <div class="details">
+      <p>This was the pre-work assignment for General Assembly - just something to get a little experience under our belts before the
+        class got started.</p>
+      <p>I went back to it towards the end of the course, and completely re-wrote it while still technically meeting the project's
+        requirements.</p>
+
+    </div>
     <div class="skills-used icon-colored">
       <h4>Skills Used</h4>
       <ul class="skills">
@@ -92,14 +107,20 @@
         <li class="nodejs"></li>
       </ul>
     </div>
-    <div class="repo">
-      <a class="front-end" href="https://github.com/acharliekelly/memory/">front</a>
+    <div class="code">
+      <div class="repo">
+        <a class="front-end" href="https://github.com/acharliekelly/memory/">front end</a>
+      </div>
     </div>
   </section>
   <section class="project-description" id="tictactoe" data-url="https://acharliekelly.github.io/ttt-client" data-icon="x.png">
     <header class="title">Tic-Tac-Toe</header>
     <div class="overview">A complicated implementation of a simple game</div>
-    <div class="details"></div>
+    <div class="details">
+      <p>My first real assignment for General Assembly. We had to build a functional Tic-Tac-Toe game that connected to a pre-existing
+        back-end API, which would allow users to keep track of past games.</p>
+      <p>My implementation went a few extra steps, including allowing users to switch the site design between 5 different themes.</p>
+    </div>
     <div class="skills-used icon-colored">
       <h4>Skills Used</h4>
       <ul class="skills">
@@ -115,7 +136,7 @@
     </div>
     <div class="code">
       <div class="repo">
-        <a class="front-end" href="https://github.com/acharliekelly/ttt-client">front</a>
+        <a class="front-end" href="https://github.com/acharliekelly/ttt-client">front end</a>
       </div>
     </div>
   </section>
@@ -149,15 +170,21 @@
     </div>
     <div class="code">
       <div class="repo">
-        <a class="front-end" href="https://github.com/acharliekelly/resumption-client">front</a>
-        <a class="back-end" href="https://github.com/acharliekelly/resumption-api">back</a>
+        <a class="front-end" href="https://github.com/acharliekelly/resumption-client">front end</a>
+        <a class="back-end" href="https://github.com/acharliekelly/resumption-api">back end</a>
       </div>
     </div>
   </section>
   <section class="project-description" id="nile" data-url="https://wdi-3-0.github.io/nile-client" data-icon="nile.png">
     <header class="title">Nile</header>
     <div class="overview">E-Commerce Site</div>
-    <div class="details">Project I worked on in a group</div>
+    <div class="details">
+      <p>Group project at General Assembly. Both the groups and the project prompts were assigned at random.
+      Our prompt was a functional E-Commerce site that incorporated a shopping cart and payment via Stripe, and was built
+      using Express and MongoDB.</p>
+      <p>Also, we only had 3 days, from wire-frames to class presentations.</p>
+      <p>We decided to sell one-of-a-kind works of art, because it meant not having to deal with quantities.</p>
+    </div>
     <div class="skills-used icon-colored">
       <h4>Skills Used</h4>
       <ul class="skills">
@@ -176,8 +203,8 @@
     </div>
     <div class="code">
       <div class="repo">
-        <a class="front-end" href="https://github.com/wdi-3-0/nile-client">front</a>
-        <a class="back-end" href="https://github.com/wdi-3-0/nile-api">back</a>
+        <a class="front-end" href="https://github.com/wdi-3-0/nile-client">front end</a>
+        <a class="back-end" href="https://github.com/wdi-3-0/nile-api">back end</a>
       </div>
     </div>
   </section>
@@ -209,20 +236,21 @@
     </div>
 
   </section>
-</body>
-<script type="text/javascript">
-$(() => {
-  $('.skills li').each(function() {
-    const cls = $(this).attr('class')
-    if (cls) {
-      try {
-        const di = getIconColor(cls)
-        $(this).html(di)
-      } catch(err) {
-        console.log(err)
+  <script type="text/javascript">
+  $(() => {
+    $('.skills li').each(function() {
+      const cls = $(this).attr('class')
+      if (cls) {
+        try {
+          const di = getIconColor(cls)
+          $(this).html(di)
+        } catch(err) {
+          console.log(err)
+        }
       }
-    }
+    })
   })
-})
-</script>
+  </script>
+</body>
+
 </html>
