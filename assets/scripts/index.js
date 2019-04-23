@@ -1,6 +1,5 @@
 /*
  Behavior:
-
 Each project item is a white ring containing a black circle with project title and logo.
 On hover, the outer ring disappears and the inner circle turns white. The project details
 appear via animation in display area. Also, a message appears under the project logo that
@@ -9,7 +8,6 @@ On click, project detail section collapses to left side, making room for iframe 
 Also, project item changes appearance to show it is active. Hovering on other projects
 has no effect, but clicking them will change detail & preview to new project. Clicking
 active project again will de-activate it, so all projects have normal on-hover effect.
-
 Page header (name & logo) behave as project item, but for About Me section instead of
 project (ie hover will display About Me, clicking will temporarily pin the section as active)
 */
