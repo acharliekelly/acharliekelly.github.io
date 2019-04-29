@@ -1,411 +1,786 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Portfolio</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="shortcut icon" type="image/gif" href="assets/styles/images/ck.gif">
-      <link href="https://fonts.googleapis.com/css?family=Righteous|Srisakdi" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-      <link href="assets/styles/display.css" rel="stylesheet" type="text/css">
-      <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="assets/scripts/icons.js" type="text/javascript" charset="utf-8"></script>
-      <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Materialize - Compiled and minified CSS-->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+      <!-- Font Awesome Icon - CSS-->
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <!-- Custom Styles-->
+      <link rel="stylesheet" href="assets/styles/main-mat.css">
+      <title>Charlie Kelly | Full Stack Developer</title>
+      <!-- Open Graph-->
+      <meta property="og:locale" content="en_US">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Charlie Kelly | Full Stack Developer">
+      <meta property="og:description" content="I like to make things">
+      <meta property="og:url" content="acharliekelly.github.io">
+      <meta property="og:site_name" content="Charlie Kelly | Full Stack Developer">
+      <meta property="article:publisher" content="acharliekelly.github.io">
+      <meta property="og:image" content="">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@Charliearei">
+      <meta name="twitter:title" content="Charlie Kelly | Full Stack Developer">
+      <meta name="twitter:description" content="I like to make things">
+      <meta name="twitter:url" content="acharliekelly.github.io">
+      <meta name="author" content="Charlie Kelly">
+      <meta name="description" content="I want to make things that make a difference.">
+      <link rel="icon" type="image/gif" href="images/ck.gif">
+      <link rel="shortcut icon" type="image/gif" href="images/ck.gif">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+      -->
+      <meta name="robots" content="index, follow">
 
     </head>
     <body>
-      <header class="page-header">
-        <img class="logo-left" src="assets/styles/images/ck.gif" alt="Logo">
-        <!-- <div class="logo-spacer"></div> -->
-        <img class="logo-right" src="assets/styles/images/ck.gif" alt="Logo">
-        <span class="h1">Charlie Kelly:</span>
-        <span class="h2">Portfolio</span>
-      </header>
-
-      <nav class="projects">
-        <div class="project">
-          <article id="memory" class="app" data-url="https://acharliekelly.github.io/memory/">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">Memory Game</strong>
-              </div>
-              <div class="logo">
-                <img alt="Memory" src="assets/styles/images/projects/memory.png">
-              </div>
-            </header>
-          </article>
-        </div>
-        <div class="project">
-          <article id="tictactoe" class="app" data-url="https://acharliekelly.github.io/ttt-client/">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">Tic-Tac-Toe</strong>
-              </div>
-              <div class="logo">
-                <img alt="Tic-Tac-Toe Logo" src="assets/styles/images/projects/x.png">
-              </div>
-            </header>
-          </article>
-        </div>
-        <div class="project">
-          <article id="resumption" class="app" data-url="https://acharliekelly.github.io/resumption-client/">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">Resumption</strong>
-              </div>
-              <div class="logo">
-                <img alt="Resumption" src="assets/styles/images/projects/resumpt1.png">
-              </div>
-            </header>
-          </article>
-        </div>
-        <div class="project">
-          <article id="nile" class="app" data-url="https://wdi-3-0.github.io/nile-client/">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">Nile</strong>
-              </div>
-              <div class="logo">
-                <img alt="Nile" src="assets/styles/images/projects/nile.png">
-              </div>
-            </header>
-          </article>
-        </div>
-        <div class="project">
-          <article id="aane" class="site" data-url="https://aane.org">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">AANE</strong>
-              </div>
-              <div class="logo">
-                <img alt="AANE Logo" src="assets/styles/images/projects/aane_logo.png">
-              </div>
-            </header>
-          </article>
-        </div>
-        <div class="project">
-          <article id="bikon" class="app" data-url="https://acharliekelly.github.io/bikon/">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">BiKon</strong>
-              </div>
-              <div class="logo">
-                <img alt="BiKon" src="assets/styles/images/projects/bikon.png">
-              </div>
-            </header>
-          </article>
-        </div>
-
-        <!-- <div class="project">
-          <article id="cantimaginewhy" class="site" data-url="http://cantimaginewhy.com">
-            <header>
-              <div class="title-bkg">
-                <strong class="title">Can&lsquo;t Imagine Why</strong>
-              </div>
-              <div class="logo">
-                <img alt="Cant Imagine Why" src="assets/styles/images/projects/CK-bw.png">
-              </div>
-            </header>
-          </article>
-        </div> -->
+      <!-- Navigation Menu -->
+      <nav class="hide-on-small-only">
+        <ul class="side-nav fixed section table-of-contents">
+          <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+              <h1>Charlie Kelly<span class="brown-text light">Full Stack Developer</span></h1></a></li>
+          <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+          <!-- <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li> -->
+          <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+          <li class="bold"><a aria-label="Open Charlie's resume in a new tab" href="https://docs.google.com/document/d/1W-9Ym-GX84PYta0eC5Aw-HXjPysQXkfhe6waYwq5wPk" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+        </ul>
       </nav>
-
-      <div id="mainDisplay" class="display text-only" data-id="">
-        <div class="info" id="descrip">
-          <section class="about" id="aboutMe">
-            <header class="title">
-              <h2>About Me</h2>
-            </header>
-            <img class="self-photo" src="https://i.imgur.com/5FoPezO.jpg" alt="Me">
-            <div class="body">
-              <p>I'm a web developer based in Boston, MA.</p>
-              <p>I spent the past several years in the non-profit world, building things out of existing tools
-                for little or no money. Before that, though, I was a software engineer, and I recently decided to
-                get back into making things from scratch.</p>
-              <p>To that end, I recently completed a coding bootcamp at General Assembly. This experience helped
-                me re-familiarize myself with a developer mentality, as well as teaching me a number of technical
-                skills and tools that did not yet exist the last time I worked in software.</p>
-
-            </div>
-
-            <h3>Skills</h3>
-            <div id="mySkills" class="icon-wordmark">
-              <div class="skill-set">
-                <header>Languages</header>
-                <ul class="skills">
-                  <li class="javascript"></li>
-                  <li class="java"></li>
-                  <li class="ruby"></li>
-                  <li class="php"></li>
-                </ul>
-              </div>
-              <div class="skill-set">
-                <header>Front End</header>
-                <ul class="skills">
-                  <li class="html5"></li>
-                  <li class="css3"></li>
-                  <li class="sass"></li>
-                  <li class="jquery"></li>
-                  <li class="bootstrap"></li>
-                </ul>
-              </div>
-              <div class="skill-set">
-                <header>Framework &amp; Database</header>
-                <ul class="skills">
-                  <li class="nodejs"></li>
-                  <li class="express"></li>
-                  <li class="rails"></li>
-                  <li class="mongodb"></li>
-                  <li class="oracle"></li>
-                  <li class="postgresql"></li>
-                  <li class="mysql"></li>
-                </ul>
-              </div>
-              <div class="skill-set">
-                <header>Tools &amp; Services</header>
-                <ul class="skills">
-                  <li class="amazonwebservices"></li>
-                  <li class="atom"></li>
-                  <li class="grunt"></li>
-                  <li class="git"></li>
-                  <li class="github"></li>
-                  <li class="heroku"></li>
-                  <li class="tomcat"></li>
-                  <li class="apache"></li>
-                </ul>
-              </div>
-              <div class="skill-set">
-                <header>Other</header>
-                <ul class="skills">
-                  <li class="linux"></li>
-                  <li class="redhat"></li>
-                  <li class="wordpress"></li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section class="project-description" id="memory" data-url="https://acharliekelly.github.io/memory/" data-icon="memory.png">
-            <header class="title">Memory Game</header>
-            <div class="overview">My very first web project (of 2019)</div>
-            <div class="details">
-              <p>This was the pre-work assignment for General Assembly - just something to get a little experience under our belts before the
-                class got started.</p>
-              <p>I went back to it towards the end of the course, and completely re-wrote it while still technically meeting the project's
-                requirements.</p>
-
-            </div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="grunt"></li>
-                <li class="sass"></li>
-                <li class="jquery"></li>
-                <li class="javascript"></li>
-                <li class="nodejs"></li>
-              </ul>
-            </div>
-            <div class="code">
-              <div class="repo">
-                <a class="front-end" href="https://github.com/acharliekelly/memory/">front end</a>
-              </div>
-            </div>
-          </section>
-          <section class="project-description" id="tictactoe" data-url="https://acharliekelly.github.io/ttt-client" data-icon="x.png">
-            <header class="title">Tic-Tac-Toe</header>
-            <div class="overview">A complicated implementation of a simple game</div>
-            <div class="details">
-              <p>My first real assignment for General Assembly. We had to build a functional Tic-Tac-Toe game that connected to a pre-existing
-                back-end API, which would allow users to keep track of past games.</p>
-              <p>My implementation went a few extra steps, including allowing users to switch the site design between 5 different themes.</p>
-            </div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="bootstrap"></li>
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="grunt"></li>
-                <li class="sass"></li>
-                <li class="jquery"></li>
-                <li class="javascript"></li>
-                <li class="nodejs"></li>
-              </ul>
-            </div>
-            <div class="code">
-              <div class="repo">
-                <a class="front-end" href="https://github.com/acharliekelly/ttt-client">front end</a>
-              </div>
-            </div>
-          </section>
-          <section class="project-description" id="resumption" data-url="https://acharliekelly.github.io/resumption-client" data-icon="resumpt1.png">
-            <header class="title">Resumption</header>
-            <div class="overview">Full-stack resume management application</div>
-            <div class="details">
-              <p>During the resume-writing process at GA, I found that I really had too many different types of
-                experience to fit easily on a single-page, general purpose resume. There are commercial applications that
-                let you create multiple resumes and host them online, but they generally require a fee; besides,
-                they offered a lot of features I didn't need, while failing to offer some things I wanted. </p>
-                <p>So my full-stack app lets me save multiple versions of each resume section (ie Experience, Skills, etc).
-                  Each resume I create can combine multiple sections, and apply one of several templates. I can then publish the
-                  resume to a publicly-accessible URL. Then I can provide a specific URL to each job I'm applying for.
-                  If a role doesn't exactly match any of my existing resumes, I can easily create a new one just by recombining existing sections.</p>
-                <p>The back-end is a Rails API based on 4 relational tables, including a many-to-many join of sections to layouts.</p>
+      <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Charlie Kelly</a><span class="brown-text light">Full Stack Developer</span></div>
+      </nav>
+      <nav class="hide-on-large only">
+        <ul id="slide-out" class="side-nav">
+          <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+          <!-- <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li> -->
+          <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+          <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+          <li class="bold"><a aria-label="Open Charlie's Resume in a new tab" href="https://docs.google.com/document/d/1W-9Ym-GX84PYta0eC5Aw-HXjPysQXkfhe6waYwq5wPk" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+        </ul>
+      </nav>
+      <main>
+        <section id="intro" class="section scrollspy full-height">
+          <div class="overlay"></div>
+          <div class="container">
+            <h2>I like to make things</h2>
           </div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="javascript"></li>
-                <li class="jquery"></li>
-                <li class="sass"></li>
-                <li class="ruby"></li>
-                <li class="rails"></li>
-                <li class="postgresql"></li>
-                <li class="heroku"></li>
-              </ul>
-            </div>
-            <div class="code">
-              <div class="repo">
-                <a class="front-end" href="https://github.com/acharliekelly/resumption-client">front end</a>
-                <a class="back-end" href="https://github.com/acharliekelly/resumption-api">back end</a>
+          <!-- <div class="portrait">
+            <img alt="Me" src="images/me.jpg">
+          </div> -->
+        </section>
+        <section id="about" class="section scrollspy">
+          <h3 class="page-title white-text teal">About</h3>
+          <div class="container flow-text">
+            <p>I'm a web developer based in Boston, MA.</p>
+            <p>I spent the past several years in the non-profit world, building things out of existing tools
+              for little or no money. Before that, though, I was a software engineer, and I recently decided to
+              get back into making things from scratch.</p>
+            <p>To that end, I recently completed a coding bootcamp at General Assembly. This experience helped
+              me re-familiarize myself with a developer mentality, as well as teaching me a number of technical
+              skills and tools that did not yet exist the last time I worked in software.</p>
+          </div>
+        </section>
+        <section id="experience" class="section scrollspy">
+          <h3 class="page-title white-text teal">Experience</h3>
+          <div class="container">
+            <!-- AANE -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://aane.org" target="_blank">
+                      <img alt="AANE Logo" class="responsive-img center-block" src="images/projects/aane_logo.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://aane.org" target="_blank" class="teal-text hoverline">AANE</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">IT Manager</div>
+                <p><em>National non-profit that provides resources to families and individuals on the autism spectrum</em></p>
+                <h6>Responsibilities</h6>
+                <ul>
+                  <li>Provide operational support for technical needs including network management, system integration, training, and database and website development</li>
+                  <li>Research diverse technologies to advise executive director on implementation strategies, as needed, including cloud migration, password management, and technological risk assessment</li>
+                  <li>Maintain and administered organization website, including all WordPress maintenance, features, and plugins</li>
+                  <li>Oversee G-Suite and web-based security applications</li>
+                </ul>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Converted website from static HTML to WordPress</li>
+                  <li>Made decision to migrate from local file server to cloud-based resources, saving over $20K in annual fees</li>
+                  <li>Dramatically improved security by acquring role-based password management application</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>August 2012 - January 2019 | Watertown, MA</span>
               </div>
             </div>
-          </section>
-          <section class="project-description" id="nile" data-url="https://wdi-3-0.github.io/nile-client" data-icon="nile.png">
-            <header class="title">Nile</header>
-            <div class="overview">E-Commerce Site</div>
-            <div class="details">
-              <p>Group project at General Assembly. Both the groups and the project prompts were assigned at random.
-              Our prompt was a functional E-Commerce site that incorporated a shopping cart and payment via Stripe, and was built
-              using Express and MongoDB.</p>
-              <p>Also, we only had 3 days, from wire-frames to class presentations.</p>
-              <p>We decided to sell one-of-a-kind works of art, because it meant not having to deal with quantities.</p>
-            </div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="sass"></li>
-                <li class="jquery"></li>
-                <li class="javascript"></li>
-                <li class="express"></li>
-                <li class="mongodb"></li>
-                <li class="heroku"></li>
-                <li class="mongoose">Mongoose</li>
-                <li class="stripe">Stripe API</li>
-                <li class="mLab">mLab</li>
-              </ul>
-            </div>
-            <div class="code">
-              <div class="repo">
-                <a class="front-end" href="https://github.com/wdi-3-0/nile-client">front end</a>
-                <a class="back-end" href="https://github.com/wdi-3-0/nile-api">back end</a>
+            <!-- Costedio -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="http://www.katrinacostedio.com/" target="_blank">
+                      <img alt="Logo" class="responsive-img center-block" src="images/projects/kcd.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="http://www.katrinacostedio.com/" target="_blank" class="teal-text hoverline">Costedio Design</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Technical Director</div>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Responsible for website development for a variety of small business clients</li>
+                  <li>Designed and constructed roughly 20 sites for small business and non-profit customers</li>
+                  <li>Worked closely with customers to analyze goals and discuss options based on a range of budgets</li>
+                  <li>Directed and oversaw duties of additional web programmers and sub-contractors</li>
+                  <li>Participated in creative design process as well as planning best technical approach</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>April 2008 - August 2012 | Sarasota, FL</span>
               </div>
             </div>
-          </section>
-          <section class="project-description" id="bikon" data-url="https://acharliekelly.github.io/bikon/" data-icon="bikon.png">
-            <header class="title">BiKon</header>
-            <div class="overview">Biking Conditions</div>
-            <div class="details">
-              App for reporting local conditions for cycling, then search other users' reports.
-            </div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="sass"></li>
-                <li class="jquery"></li>
-                <li class="javascript"></li>
-                <li class="ruby"></li>
-                <li class="rails"></li>
-                <li class="postgresql"></li>
-                <li class="heroku"></li>
-                <li class="google-maps">Google Maps API</li>
-              </ul>
-            </div>
-            <div class="code">
-              <div class="repo">
-                <a class="front-end" href="https://github.com/acharliekelly/bikon">front end</a>
-                <a class="back-end" href="https://github.com/acharliekelly/bikon-api">back end</a>
+            <!-- Open Service -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="http://logmatrix.com/" target="_blank">
+                      <img alt="Open Service Logo" class="responsive-img center-block" src="images/projects/open-service.jpg">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="http://logmatrix.com/" target="_blank" class="teal-text hoverline">Open Service</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Senior Software Engineer</div>
+                <p><em>(Now called LogMatrix)</em></p>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Principal UE developer for an enterprise network security and threat detection suite</li>
+                  <li>Designed front end for two major releases of web-based security product used (at the time) by nearly every
+                    major telecom or financial services company</li>
+                  <li>Developed complex components based on XML specifications using JAXB</li>
+                  <li>Created entirely new interface using Java Server Faces</li>
+                  <li>Advocated and successfully achieved migration of product away from applet-based interfaces towards Ajax,
+                resulting in significant improvement in customer satisfaction</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>January 2007 - April 2008 | Marlborough, MA</span>
               </div>
             </div>
-          </section>
-          <section class="project-description" id="aane" data-url="https://aane.org" data-icon="aane_logo.png">
-            <header class="title">AANE</header>
-            <div class="overview">WordPress site that I developed and maintained</div>
-            <div class="details"></div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="wordpress"></li>
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="javascript"></li>
-              </ul>
+            <!-- MediaSurface -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://www.alterian.com/" target="_blank">
+                      <img alt="MediaSurface Logo" class="responsive-img center-block" src="images/projects/alterian.jpg">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://en.wikipedia.org/wiki/Mediasurface" target="_blank" class="teal-text hoverline">MediaSurface</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Software Engineer</div>
+                <p><em>(Now a subsidiary of Alterian)</em></p>
+                <h6>Responsibilities</h6>
+                <p>As a consultant for MediaSurface, I joined a 5-person team that rebuilt the public-facing website of Thomson,
+                  a media conglomerate that became Thomson Reuters in 2008 when it acquired the Reuters Group.</p>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Quickly mastered API for proprietary CMS platform</li>
+                  <li>Integrated into team of consultants and client employees to build brand new public website for multinational media giant within narrow timeframe</li>
+                  <li>Built numerous JSP-based components to plug into framework</li>
+                  <li>Documented and thoroughly tested hundreds of individual components within framework</li>
+                  <li>Solely responsible for successful creation of Java-based email broadcaster to notify hundreds of thousands of customers about important updates</li>
+                  <li>Developed intranet solution for management and statistical analysis of email broadcaster</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>June 2006 - January 2007 | Stamford, CT</span>
+              </div>
             </div>
-          </section>
-          <section class="project-description" id="cantimaginewhy" data-url="http://cantimaginewhy.com" data-icon="CK-bw.png">
-            <header class="title">Can't Imagine Why</header>
-            <div class="overview">A site for displaying some artwork</div>
-            <div class="details"></div>
-            <div class="skills-used icon-colored">
-              <h4>Skills Used</h4>
-              <ul class="skills">
-                <li class="html5"></li>
-                <li class="css3"></li>
-                <li class="wordpress"></li>
-              </ul>
+            <!-- Coface -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://www.coface-usa.com/" target="_blank">
+                      <img alt="Coface Logo" class="responsive-img center-block" src="images/projects/logo_coface.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://www.coface-usa.com/" target="_blank" class="teal-text hoverline">Coface Services</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Software Engineer</div>
+                <p><em>"A modern and agile company with the most finely meshed international network, Coface is a reference in credit insurance and risk management.</em></p>
+                <h6>Accomplishments"</h6>
+                <ul>
+                  <li>Developed wide range of business applications based on Oracle back-end with JSP or VB interfaces</li>
+                  <li>Projects ranged from tiny VB or MS Access apps that served only to allow protected interface,
+                    to enterprise-wide web-based reporting solutions</li>
+                  <li>Also responsible for naming applications and creating unique icons</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>August 2003 - October 2005 | New Haven, CT</span>
+              </div>
             </div>
-
-          </section>
-        </div>
-        <div class="preview">
-          <iframe id="sitePreview"></iframe>
-        </div>
-      </div>
-
-      <footer>
-        <div class="contact">
-          <ul>
-            <li class="email">
-              <a href="mailto:charliekelly31415@gmail.com">
-                <img alt="Email" src="assets/styles/images/contact/email.png">
-                <span class="contact-info">charliekelly31415@gmail.com</span>
+            <!-- USAF -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://www.af.mil/" target="_blank">
+                      <img alt="Logo" class="responsive-img center-block" src="images/projects/usaf.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://www.af.mil/" target="_blank" class="teal-text hoverline">United States Air Force</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Surveillance Technician</div>
+                <p><em>This isn't really relevant experience, I just wanted to mention it</em></p>
+                <h6>Responsibilities</h6>
+                <ul>
+                  <li>Trained on ground-based radar modules, using early precursor to touch-screen technology</li>
+                  <li>Monitored No-Fly Zone between Iraq and Kuwait following Operation Desert Storm</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>June 1995 - June 1999 | Various Locations</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="section scrollspy">
+          <h3 class="page-title white-text teal">Projects</h3>
+          <div class="container">
+            <div class="row">
+              <!-- aane.org -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Screenshot of AANE.org" src="images/screenshots/aane.png" class="activator">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">AANE
+                      <i class="mdi-navigation-more-vert right"></i>
+                    </span>
+                    <p>Public-facing website for autism non-profit</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title brown-text">Technologies
+                      <i class="mdi-navigation-close right"></i>
+                    </span>
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JavaScript</li>
+                      <li>WordPress</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit AANE website" href="https://aane.org" target="_blank" data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- TTT -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="TTT Logo" src="images/screenshots/ttt.png" class="activator">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Tic-Tac-Toe
+                      <i class="mdi-navigation-more-vert right"></i>
+                    </span>
+                    <p>A complicated implementation of a simple game</p>
+                    <p>My first real assignment for General Assembly. We had to build a functional Tic-Tac-Toe game that connected
+                      to a pre-existing back-end API, which would allow users to keep track of past games.</p>
+                    <p>My implementation went a few extra steps, including allowing users to switch the site design between 5 different themes.
+                    <p>Complicated implementation of a simple game</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title brown-text">
+                      Technologies
+                      <i class="mdi-navigation-close right"></i>
+                    </span>
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Grunt</li>
+                      <li>Sass</li>
+                      <li>Bootstrap</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                      <li>node</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit Online" href="https://acharliekelly.github.io/ttt-client" target="_blank" data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                      <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/ttt-client" target="_blank" data-position="top" data-tooltip="Visit GitHub Repository"
+                         class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-github"></i>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Resumption -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Resumption Logo" src="images/screenshots/resumption.png" class="activator">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Resumption
+                      <i class="mdi-navigation-more-vert right"></i>
+                    </span>
+                    <p>Full-stack resume management application</p>
+                    <p>During the resume-writing process at GA, I found that I really had too many different types of experience to fit easily on a single-page, general purpose resume. There are commercial applications that let you create multiple resumes and host them online, but they generally require a fee; besides, they offered a lot of features I didn't need, while failing to offer some things I wanted.</p>
+                    <p>So my full-stack app lets me save multiple versions of each resume section (ie Experience, Skills, etc). Each resume I create can combine multiple sections, and apply one of several templates. I can then publish the resume to a publicly-accessible URL. Then I can provide a specific URL to each job I'm applying for. If a role doesn't exactly match any of my existing resumes, I can easily create a new one just by recombining existing sections.</p>
+                    <p>The back-end is a Rails API based on 4 relational tables, including a many-to-many join of sections to layouts.</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title brown-text">
+                      Technologies
+                      <i class="mdi-navigation-close right"></i>
+                    </span>
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Sass</li>
+                      <li>Ruby</li>
+                      <li>Rails</li>
+                      <li>PostgreSQL</li>
+                      <li>Heroku</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit Online" href="https://acharliekelly.github.io/resumption-client" target="_blank" data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                      <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/resumption-client" target="_blank" data-position="top" data-tooltip="Visit GitHub Repository"
+                         class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-github"></i>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Nile -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Nile Logo" src="images/screenshots/nile.png" class="activator">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Nile
+                      <i class="mdi-navigation-more-vert right"></i>
+                    </span>
+                    <p>Functional E-Commerce Site</p>
+                    <p>Group project at General Assembly. Both the groups and the project prompts were assigned at random. Our prompt was a functional E-Commerce site that incorporated a shopping cart and payment via Stripe, and was built using Express and MongoDB.</p>
+                    <p>Also, we only had 3 days, from wire-frames to class presentations.</p>
+                    <p>We decided to sell one-of-a-kind works of art, because it meant not having to deal with quantities.</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title brown-text">
+                      Technologies
+                      <i class="mdi-navigation-close right"></i>
+                    </span>
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Sass</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                      <li>Handlebars</li>
+                      <li>Express</li>
+                      <li>MongoDB</li>
+                      <li>Heroku</li>
+                      <li>Mongoose</li>
+                      <li>Stripe API</li>
+                      <li>mLab</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit Online" href="https://wdi-3-0.github.io/nile-client" target="_blank" data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                      <a aria-label="Visit GitHub Repository" href="https://github.com/wdi-3-0/nile-client" target="_blank" data-position="top" data-tooltip="Visit GitHub Repository"
+                         class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-github"></i>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bikon -->
+              <div class="col s12 m6 l4">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="Nile Logo" src="images/screenshots/bikon.png" class="activator">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Bikon
+                      <i class="mdi-navigation-more-vert right"></i>
+                    </span>
+                    <p>Biking Conditions</p>
+                    <p>App for reporting local conditions for cycling, then search other users' reports.</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title brown-text">
+                      Technologies
+                      <i class="mdi-navigation-close right"></i>
+                    </span>
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Sass</li>
+                      <li>JavaScript</li>
+                      <li>ReactJS</li>
+                      <li>JSX</li>
+                      <li>Ruby</li>
+                      <li>Rails</li>
+                      <li>PostgreSQL</li>
+                      <li>Heroku</li>
+                      <li>Google Maps API</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit Online" href="https://acharliekelly.github.io/bikon" target="_blank" data-position="top" data-tooltip="View Online"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-external-link"></i>
+                      </a>
+                      <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/bikon" target="_blank" data-position="top" data-tooltip="Visit GitHub Repository"
+                         class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                        <i class="fa fa-github"></i>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="section scrollspy">
+          <h3 class="page-title white-text teal">Skills</h3>
+          <div class="container">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Languages</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/javascript.png" class="responsive-img">JavaScript
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/java.jpg" class="responsive-img">Java
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/ruby2.png" class="responsive-img">Ruby
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/php.png" class="responsive-img">PHP
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Markup</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/html5.png" class="responsive-img">HTML5
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/react.png" class="responsive-img">JSX
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/haml.png" class="responsive-img">Haml
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/xml.png" class="responsive-img">XML
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/md.webp" class="responsive-img">MD
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/json.png" class="responsive-img">JSON
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">CSS</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/css3.png" class="responsive-img">CSS3
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/bootstrap.png" class="responsive-img">Bootstrap
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/materialize.png" class="responsive-img">Materialize
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/yaml.png" class="responsive-img">Yaml
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">JavaScript</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/javascript.png" class="responsive-img">ES6
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/react.png" class="responsive-img">ReactJS
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/jquery.png" class="responsive-img">jQuery
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/express.png" class="responsive-img">Express
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/nodejs.png" class="responsive-img">NodeJS
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Back-End</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/rails.png" class="responsive-img">Rails
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/postgresql.png" class="responsive-img">PostgreSQL
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/mysql.png" class="responsive-img">MySQL
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/mongodb2.png" class="responsive-img">MongoDB
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/tomcat.png" class="responsive-img">Tomcat
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/apache-logo.png" class="responsive-img">Apache
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Testing/QA</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/selenium.png" class="responsive-img">Selenium
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/appium.jpg" class="responsive-img">Appium
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/testng.jpg" class="responsive-img">TestNG
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/rspec.png" class="responsive-img">RSpec
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Services</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/aws-logo.jpg" class="responsive-img">AWS
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/s3.png" class="responsive-img">S3
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/heroku.png" class="responsive-img">Heroku
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/mlab.png" class="responsive-img">mLab
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/github.png" class="responsive-img">GitHub
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Tools</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/eclipse.png" class="responsive-img">Eclipse
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/atom.png" class="responsive-img">Atom
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/grunt.png" class="responsive-img">Grunt
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/git.png" class="responsive-img">Git
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/webpack.png" class="responsive-img">Webpack
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/npm.png" class="responsive-img">NPM
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="education" class="section scrollspy">
+          <h3 class="page-title white-text teal">Education</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-content">
+                    <p>
+                      <span class="card-title">
+                        <a class="teal-text hoverline" href="https://generalassemb.ly">General Assembly</a>
+                      </span>
+                    </p>
+                    <p class="brown-text">Boston, MA</p>
+                    <ul>
+                      <li>April 2019</li>
+                      <li>Web Development Immersive</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-content">
+                    <p>
+                      <span class="card-title">
+                        <a class="teal-text hoverline" href="https://www.charteroak.edu/">Charter Oak State College</a>
+                      </span>
+                    </p>
+                    <p class="brown-text">New Britain, CT</p>
+                    <ul>
+                      <li>May 2017</li>
+                      <li>B.S. in Information Systems</li>
+                      <li>Magna Cum Laude</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-content">
+                    <p>
+                      <span class="card-title">
+                        <a class="teal-text hoverline" href="https://www.qcc.edu/">Quinsigamond Community College</a>
+                      </span>
+                    </p>
+                    <p class="brown-text">Worcester, MA</p>
+                    <ul>
+                      <li>December 2002</li>
+                      <li>A.S. in Information Systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="section scrollspy">
+          <h3 class="page-title white-text teal">Contact</h3>
+          <div class="container">
+            <p>
+              <a aria-label="Email Charlie" href="mailto:charliekelly31415@gmail.com" data-position="top" data-tooltip="Email Charlie"
+                 class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:charliekelly31415@gmail.com" class="hoverline">charliekelly31415@gmail.com</a>
               </a>
-            </li>
-            <li class="linkedin">
-              <a href="https://linkedin.com/in/acharliekelly" target="_blank">
-                <img alt="LinkedIn" src="assets/styles/images/contact/linkedin_circle_black-512.png">
-                <span class="contact-info">acharliekelly</span>
-              </a>
-            </li>
-            <li class="github">
-              <a href="https://github.com/acharliekelly" target="_blank">
-                <img alt="GitHub" src="assets/styles/images/contact/github-512.png">
-                <span class="contact-info">acharliekelly</span>
-              </a>
-            </li>
-            <li class="facebook">
-              <a href="https://facebook.com/acharliekelly" target="_blank">
-                <img alt="Facebook" src="assets/styles/images/contact/facebook_circle_black-512.png">
-                <span class="contact-info">acharliekelly</span>
-              </a>
-            </li>
-            <li class="location">
-              <a href="#">
-                <img alt="Location" src="assets/styles/images/contact/geo-512.png">
-                <span class="contact-info">Waltham, MA</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="copyright">&copy; 2019 by Charlie Kelly</div>
-        <div class="contact-display"></div>
-      </footer>
+            </p>
+            <p>
+              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                <i class="fa fa-github"></i>
+              <a alt="" href="http://github.com/acharliekelly" class="hoverline">github.com/acharliekelly</a></a></p>
+            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a alt="" href="http://linkedin.com/in/acharliekelly" class="hoverline">linkedin.com/in/acharliekelly</a></a></p>
+          </div>
+        </section>
+      </main>
+      <!-- jQuery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <!-- Materialize - Compiled and minified JavaScript-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+      <script>
+        // Materialize - Initializers
+        $(document).ready(function(){
+          $('.scrollspy').scrollSpy();
+          // Initialize collapse button
+          $(".button-collapse").sideNav({
+              menuWidth: 190, // Default is 240
+              edge: 'left', // Choose the horizontal origin
+              closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            }
+          );
+        });
+      </script>
     </body>
 </html>

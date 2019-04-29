@@ -2,8 +2,7 @@
   "extends": "standard",
   "root": true,
   "env": {
-      "browser": true,
-      "jquery": true
+      "node": true
   },
   "rules": {
     "prefer-const": "error",
