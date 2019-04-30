@@ -1,234 +1,441 @@
+/* GENERAL */
 body {
-  background: #000;
-  color: #fff;
+	color: #333;
+	font-size: 16px;
+}
+a {
+	color: #009688;
+}
+blockquote {
+	border-left: 5px solid #795548;
+	color: #795548;
+	font-size: 125%;
+	font-weight: 400;
+	margin: 20px 0;
+	padding-left: 1.5rem;
+}
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+.text-center {
+	text-align: center;
+}
+nav {
+	background: white;
+	box-shadow: none;
+	height: 0;
+}
+nav i {
+	padding: 0 15px;
+	position: relative;
+	top: 5px;
+}
+main {
+	background: url(../../images/bg.png) repeat;
+	padding-left: 190px;
+}
+ul.side-nav {
+	width: 190px;
+}
+ul.side-nav li {
+	padding: 0;
+}
+ul.side-nav.fixed a {
+	box-sizing: content-box;
+	color: #444;
+	display: block;
+	line-height: 100%;
+	padding: 10px 0 12px;
+}
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
+	border: none;
+	font-weight: 200;
+}
+ul.side-nav.fixed li.logo {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ddd;
+	box-sizing: content-box;
+	min-height: 90px;
+	padding: 30px 30px 40px;
+}
+ul.side-nav.fixed li.logo a {
+	font-weight: 200;
+	line-height: 100%;
+}
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
+	background-color: #fafafa;
+	border-left: 3px solid ;
+}
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
+	color: #333 !important;
+}
+li.logo span {
+	display: block;
+	font-size: 14px;
+}
+.brand-logo h1 {
+	font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+  font-weight: inherit;
+}
+.container {
+	width: 95%
+}
+h3 {
+	font-weight: 200;
+	margin-bottom: 60px;
+	margin-top: 0;
+	padding: 30px 40px;
+	text-transform: uppercase;
+}
+.section {
+	padding-bottom: 30px;
+	padding-top: 0;
+	position: relative;
 }
 
-.page-header {
-  font-family: Srisakdi, cursive;
-  text-align: center;
-  font-weight: 400;
-  /* border: thin inset #666; */
-  width: 40vw;
-  margin: 3px auto;
+/* SECTIONS */
+
+/* #INTRO */
+#intro.section {
+	background: url(../../images/esplanade.jpg) no-repeat top center/cover;
+	position: relative;
 }
-.page-header img {
-  width: 60px;
-  vertical-align: middle;
-  margin: 0 10px;
+#intro.section .container {
+	color: white;
+	font-weight: 200;
+	left: 0;
+	position: absolute;
+	top: 0;
 }
-.page-header .logo-left {
-  float: left;
+#intro.section .container *:not(span) {
+	font-weight: 300;
+	line-height: 150%;
+	padding: 0 30px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-.page-header .logo-right {
-  float: right;
+#intro.section .underline {
+	border-bottom: 5px solid #009688;
 }
-.page-header span {
-  margin: 0 5px;
+#intro.section span {
+	padding: 0 10px;
+}
+#intro.section .portrait {
+  position: absolute;
+  left: 5vh;
+  top: 12vh;
+	width: 300px;
+  height: 300px;
+}
+#intro.section .portrait img {
+	width: 100%;
+	height: 100%;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.waves-effect.waves-blue .waves-ripple {
+   /* The alpha value allows the text and background color
+   of the button to still show through. */
+    background-color: rgba(33, 150, 243, 0.2);
+ }
+.card {
+	margin-bottom: 60px;
+}
+.card .role {
+	font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+}
+.card li a {
+	margin-right: 0;
+	color: #333;
+	border-bottom: 2px solid #ffab40;
+}
+.card li a:hover {
+	color: #333;
+	font-weight: 500;
+}
+.card .card-content {
+	padding-bottom: 30px;
+}
+.card .card-content p {
+	padding: 5px 0 0;
+}
+.card h5 {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+.card h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.full-height {
+	height: 100vh;
 }
 
-h1, .h1 {
-  color: #FF2734;
-  font-size: 48px;
+/* #EXPERIENCE */
+#experience .card-action {
+	background-color: rgba(0,0,0,0.02);
+	border: none;
 }
-h2, .h2 {
-  color: #f80;
-  font-size: 36px;
-}
-
-
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.project {
-  width: 16vw;
-  height: 16vw;
-  border-radius: 8vw;
-  margin: auto;
-  background-color: #fff;
-
-}
-.project.active, .project.active:hover {
-  background: #ddd;
-
-}
-
-.project article {
-  width: 14vw;
-  height: 14vw;
-  border-radius: 7vw;
-  margin: 1vw;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-}
-.project article.active, .project:hover article.active {
-  background: transparent;
-}
-
-.project article div {
-  /* margin-top: 20px; */
-}
-
-.project .visit {
-  display: none;
-}
-.project .visit a {
-  color: #000;
-  font-family: Srisakdi, cursive;
-  text-decoration: none;
-}
-.project .visit a:hover {
-  text-decoration: underline;
-}
-
-
-.project header {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 90%;
-}
-
-.project a {
-  text-decoration: none;
-}
-
-.project article header .logo {
-  max-width: 100px;
-  max-height: 100px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.project article header .logo img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.project header .title-bkg {
-  border-radius: 3px;
-  background-color: #eee;
-  opacity: 0.7;
-  padding: 2px 3px;
-}
-.project header .title {
+#experience .card .col.s12.m2 a {
   display: block;
-  color: #000;
-  font-variant: small-caps;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1rem;
-  font-family: Righteous, cursive;
+}
+#experience .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+#experience .col.s12.m2 {
+	text-align: center;
+}
+.card-action span {
+	font-size: 85%;
+	color: #666;
+}
+.card ul {
+	margin-bottom: 0;
+}
+.card ul li {
+	line-height: 200%;
+	list-style-type: disc;
+	margin-left: 24px;
+}
+.card ul li li {
+  color: #666;
+  font-size: 13px;
+}
+.card .card-title {
+	font-size: 24px;
+}
+.card .card-content .card-title {
+	line-height: 2.5rem
+}
+.card i.right {
+  margin-left: 10px;
+}
+a.hoverline {
+	border-bottom: 3px solid transparent !important;
+	padding: 3px 3px 0 3px;
+	transition: .25s all;
+	-moz-transition: .25s all;
+	-webkit-transition: .25s all;
+}
+a.hoverline:hover {
+	border-bottom: 3px solid #009688 !important;
 }
 
-.project article .text-msg, .project:hover article .text-msg {
-  color: #000;
-  font-family: Srisakdi, cursive;
-  font-size: 12px;
-  margin-top: 3px;
+/* #PROJECTS */
+#projects .card ul li {
+  list-style-type: none;
 }
-.project article.active .text-msg {
-  display: none;
-}
-
-.project article.active .visit {
-  display: block;
-}
-
-.project:hover {
-  background-color: #000;
-}
-.project:hover article {
-  background-color: #fff;
-}
-.project:hover header {
-  color: #000;
-}
-.project:hover .title-bkg {
-  background-color: #333;
-}
-.project:hover .title {
-  color: #fff;
-}
-.project:hover p {
-  color: #006;
-}
-
-
-
-
-footer {
-  position: fixed;
-  bottom: 2px;
-  font-size: 14px;
-  font-family: Righteous, cursive;
-  width: 98%;
-  text-align: center;
-  margin: 1px auto;
-  vertical-align: middle;
-
-  background-color: #eee;
-  color: #000;
-  border-radius: 5px;
-  padding: 1px 3px;
-  margin: 2px 5px;
-}
-
-footer .contact {
-  float: left;
-}
-.contact li {
-  list-style: none;
-  display: inline;
-}
-.contact li:hover {
-  opacity: 0.6;
-}
-.contact li a {
-  text-decoration: none;
-  color: inherit;
-  margin: 0 5px;
-}
-.contact a .contact-info {
-  display: none;
-}
-.contact li a img {
-  width: 25px;
-}
-
-footer .copyright {
-  margin: 15px 10px 0 0;
-  float: right;
-  font-size: 20px;
-}
-footer .contact-display {
-  position: fixed;
-  bottom: 10px;
-  clear: both;
-  visibility: hidden;
-  margin: 0 auto;
-  padding: 3px 5px;
-  display: inline;
-
-  font-family: Righteous, cursive;
-  font-size: 18px;
-  font-weight: 400;
-  border: thin solid;
-  border-radius: 4px;
-}
-footer .contact-display img {
-  width: 30px;
+#projects .card li i {
   margin-right: 5px;
-  vertical-align: bottom;
 }
 
-@media only screen and (max-width: 900px) {
+/* #SKILLS */
+#skills .card.large {
+	height: 360px;
+}
+#skills h4 {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+#skills .col img.responsive-img {
+	margin: 0 auto;
+	max-height: 100px;
+	padding-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+  display: table-cell;
+}
+.card.large .card-content p {
+	color: inherit;
+	margin: 0;
+	padding: 30px 0;
+}
 
-  .project header .title {
-    font-size: 0.6rem;
+.card.large .card-image {
+	height: 230px;
+}
+.card.large .card-content {
+	height: auto;
+}
+.card.medium .card-image {
+	height: 240px;
+}
+.card-action a.btn-floating {
+	margin-bottom: 0;
+}
+
+/* #CONTACT */
+#contact a:not(.btn-floating) {
+	bottom: 6px;
+	left: 20px;
+	position: relative;
+}
+
+.fa-external-link:before {
+  left: 3px;
+  position: relative;
+  top: 2px;
+}
+small { display: none;}
+.grey-text {
+	color: #666 !important;
+}
+.indigo-text {
+	color: #3f51b5 !important
+}
+.indigo {
+	background-color: #3f51b5 !important
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1200px) {
+	#experience .container {
+		width: 860px
+	}
+  #projects .container {
+    width: 860px;
   }
+}
+@media (max-width: 1360px) {
+	.card ul li {
+		font-size: 14px;
+		line-height: 200%;
+		margin-left: 20px;
+	}
+}
+@media (max-width: 1160px) {
+	.card ul li {
+		line-height: 150%;
+	}
+}
+@media (max-width: 992px) {
+	main {
+		padding-left: 0px;
+		padding-top: 64px;
+	}
+	ul.side-nav a {
+	  line-height: 100%;
+	  padding: 0;
+	  width: 100%;
+	}
+	nav {
+		background: #fff;
+		height: 64px;
+		position: absolute;
+	}
+	nav a.button-collapse,
+	nav a.button-collapse i {
+		color: #009688;
+		height: 56px;
+		line-height: 56px;
+	}
+	h3 {
+		padding: 20px 30px;
+  	margin-bottom: 40px;
+	}
+	.container {
+		margin:  0 auto;
+	}
 
+	nav.hide-on-large.only.trigger {
+		display: block;
+	  position: fixed;
+	  top: 0;
+	  z-index: 2;
+	}
+	.name-title {
+	  display: block;
+	  height: 100%;
+	  padding-top: 15px;
+	  text-align: center;
+	  width: 100%;
+    position: absolute;
+	}
+	.name-title > span,
+	.name-title > a {
+    position: relative;
+    line-height: 20px;
+	}
+	.name-title a {
+    font-size: 22px;
+    display: block;
+	}
+	.name-title span {
+    display: block;
+    font-size: 14px;
+	}
+	h3,
+	.container {
+    position: relative;
+    top: 64px;
+	}
+	section#intro {
+	    margin-bottom: -64px;
+	}
+	.card .role {
+    position: relative;
+    right: initial;
+    top: initial;
+	}
+}
+@media (max-width: 600px) {
+	h2 {
+	  font-size: 22px;
+	  line-height: 200%;
+	  margin: 30px 0 0;
+	}
+	#intro.section .container *:not(span) {
+		padding: 0;
+	}
+	.card .card-content .card-title {
+    font-size: 20px;
+    line-height: 24px;
+	}
+	#experience span.card-title {
+    text-align: center;
+    display: block
+	}
+	#experience span.card-title a {
+	   margin: 0;
+	}
+	i.mdi-navigation-close.right {
+	  position: relative;
+	  bottom: 35px;
+	}
+	#contact a:not(.btn-floating) {
+    text-align: center;
+    display: block;
+    left: initial;
+    bottom: initial;
+	}
+	#contact a.btn-floating.btn-large {
+	    display: block;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	#intro.section {
+		background-position-x: 30%;
+	}
 }
