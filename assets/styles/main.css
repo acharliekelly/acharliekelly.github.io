@@ -199,6 +199,7 @@ h3 {
 #experience .card .col.s12.m2 a img {
   max-height: 60px;
 }
+
 #experience .card-content .row {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
@@ -232,14 +233,14 @@ h3 {
   margin-left: 10px;
 }
 a.hoverline {
-	border-bottom: 3px solid transparent !important;
+	/* border-bottom: 3px solid transparent !important; */
 	padding: 3px 3px 0 3px;
 	transition: .25s all;
 	-moz-transition: .25s all;
 	-webkit-transition: .25s all;
 }
 a.hoverline:hover {
-	border-bottom: 3px solid #009688 !important;
+	border-bottom: 3px solid;
 }
 
 /* #PROJECTS */
@@ -284,6 +285,26 @@ a.hoverline:hover {
 }
 .card-action a.btn-floating {
 	margin-bottom: 0;
+}
+
+/* #EDUCATION */
+#education .card-action {
+	background-color: rgba(0,0,0,0.02);
+	border: none;
+}
+#education .card .col.s12.m2 a {
+  display: block;
+}
+#education .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+
+#education .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+#education .col.s12.m2 {
+	text-align: center;
 }
 
 /* #CONTACT */
