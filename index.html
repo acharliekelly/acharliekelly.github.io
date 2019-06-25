@@ -83,11 +83,19 @@
           </div>
 
         </section>
+
+        <!-- About -->
         <section id="about" class="section scrollspy">
           <h3 class="page-title white-text purple">About</h3>
           <div class="container flow-text">
             <p>I'm a web developer based in Boston, MA.</p>
-            <p>My development career began in the late 90s, playing around with Excel spreadsheets and disovering
+            <h4>TL;DR</h4>
+            <p>
+              Making a career change from IT to Development. Looking for relatively junior roles in which wearing many hats is a plus. 
+            </p>
+            <h4>Longer</h4>
+            <p>
+              My development career began in the late 90s, playing around with Excel spreadsheets and disovering
               all the things you could do with macros. That led to learning VBA, and then to building several applications
               based on MS Access. In one instance, I created an Access-based solution for a data entry job I was doing,
               and ended up eliminating the need for my position. I saw it as a win, but the staffing agency I was nominally
@@ -115,9 +123,37 @@
 
           </div>
         </section>
+
+        <!-- Experience -->
         <section id="experience" class="section scrollspy">
           <h3 class="page-title white-text indigo">Experience</h3>
           <div class="container">
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="http://lovl.tv" target="_blank">
+                      <img alt="LOVL" class="responsive-img center-block" src="images/projects/lovl.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="http://lovl.tv" target="_blank" class="indigo-text hoverline">Live Online Video Learning</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Software Engineer</div>
+                <p><em>Start-up creating a platform for live video tutoring</em></p>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Created TypeScript-based React components for start-up’s video tutoring platform</li>
+                  <li>Developed independent component tests in Storybook for assessing performance outside deployed application</li>
+                </ul>
+              </div>
+            </div>
+
             <!-- AANE -->
             <div class="card">
               <div class="card-content">
@@ -139,14 +175,17 @@
                 <p><em>National non-profit that provides resources to families and individuals on the autism spectrum</em></p>
                 <h6>Responsibilities</h6>
                 <ul>
-                  <li>Provide operational support for technical needs including network management, system integration, training, and database and website development</li>
-                  <li>Research diverse technologies to advise executive director on implementation strategies, as needed, including cloud migration, password management, and technological risk assessment</li>
+                  <li>Provided operational support for technical needs including network management, system integration, training, and database and website development</li>
+                  <li>Researched diverse technologies to advise executive director on implementation strategies, as needed, including cloud migration, password management, and technological risk assessment</li>
                   <li>Maintain and administered organization website, including all WordPress maintenance, features, and plugins</li>
                   <li>Oversee G-Suite and web-based security applications</li>
                 </ul>
                 <h6>Accomplishments</h6>
                 <ul>
-                  <li>Converted website from static HTML to WordPress</li>
+                  <li>Provided operational support for technical needs of smallish non-profit, including network management, system integration, and database and website development and maintenance</li>
+                  <li>Implemented migration of records systems from local database to Salesforce NonProfit</li>
+                  <li>Developed and maintained extensive databases in FileMaker, MS Access, and MySQL</li>
+                  <li>Designed and implemented needed improvements to existing website, including SEO optimization, visual enhancements, and construction of numerous dynamic forms</li>
                   <li>Made decision to migrate from local file server to cloud-based resources, saving over $20K in annual fees</li>
                   <li>Dramatically improved security by acquring role-based password management application</li>
                 </ul>
@@ -172,7 +211,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="role brown-text">Intern/QA Engineer</div>
+                <div class="role brown-text">QA Engineer</div>
                 <h6>Accomplishments</h6>
                 <ul>
                   <li>Upon completion of training, participated on QA engineering contracts from local clients</li>
@@ -338,6 +377,7 @@
                 <ul>
                   <li>Trained on ground-based radar modules, using early precursor to touch-screen technology</li>
                   <li>Monitored No-Fly Zone between Iraq and Kuwait following Operation Desert Storm</li>
+                  <li>Helped keep world safe for democracy, etc</li>
                 </ul>
               </div>
               <div class="card-action">
@@ -346,9 +386,93 @@
             </div>
           </div>
         </section>
+
+        <!-- Projects -->
         <section id="projects" class="section scrollspy">
           <h3 class="page-title white-text blue">Projects</h3>
           <div class="container">
+
+            <!-- CommunityConnect -->
+            <div id="project-communityconnect" class="card horizontal">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="Screenshot of CommunityConnect" src="images/screenshots/communityconnect.png" class="activator">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator indigo-text hoverline">Community Connect
+                    <i class="mdi-navigation-more-vert right"></i>
+                  </span>
+                  <p>Project created by Code for Boston to help social workers identify and provide resources to clients.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text">Technologies
+                    <i class="mdi-navigation-close right"></i>
+                  </span>
+                  <ul>
+                    <li><i class="devicon-react-plain"></i>React</li>
+                    <li><i class="fa fa-code"></i>Redux</li>
+                    <li><i class="devicon-css3-plain"></i>CSS</li>
+                    <li><i class="fa fa-code"></i>emotion</li>
+                  </ul>
+                  <div class="card-action">
+
+                    <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank"
+                       data-position="top" data-tooltip="View Online"
+                       class="btn-floating btn-large waves-effect waves-light teal tooltipped">
+                       <i class="fa fa-external-link"></i>
+                     </a>
+                     <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank"
+                        data-position="top" data-tooltip="View GitHub Repository"
+                        class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
+                       <i class="fa fa-github"></i>
+                     </a>
+                     <a aria-label="Visit Code for Boston" href="http://codeforboston.org/" target="_blank"
+                        data-position="top" data-tooltip="Visit Code for Boston"
+                        class="btn-floating btn-large waves-effect waves-light purple tooltipped">
+                        <img src="images/projects/c4b.jpeg" style="height: 40px; vertical-align: middle;">
+                     </a>
+                   </div>
+                 </div>
+                </div>
+
+            <!-- LOVL -->
+            <div id="project-lovl" class="card horizontal">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="LOVL Logo" src="images/screenshots/lovl-landing.png" class="activator">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title activator indigo-text hoverline">LOVL
+                    <i class="mdi-navigation-more-vert right"></i>
+                  </span>
+                  <p>Live Online Video Learning</p>
+                  <p>Start-up tutoring platform</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text">
+                    Technologies
+                    <i class="mdi-navigation-close right"></i>
+                  </span>
+                  <ul>
+                    <li><i class="devicon-react-plain"></i>React</li>
+                    <li><i class="devicon-typescript-plain"></i>TypeScript</li>
+                    <li><i class="fa fa-code"></i>Redux</li>
+                    <li><i class="fa fa-code"></i>Firebase</li>
+                    <li><i class="fa fa-code"></i>styled-components</li>
+                    <li><i class="fa fa-code"></i>Storybook</li>
+                  </ul>
+                  <div class="card-action">
+                    <a href="#" data-position="top" data-tooltip="Not Yet Public" 
+                       class="btn-floating btn-large waves-effect waves-light tooltipped disabled">
+                      <i class="fa fa-external-link"></i>
+                    </a>
+                    <a href="#" data-position="top" data-tooltip="Private Repo"
+                       class="btn-floating btn-large waves-effect waves-light gray tooltipped disabled">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <!-- Bikon -->
             <div id="project-bikon" class="card horizontal">
@@ -374,7 +498,6 @@
                     <li><i class="devicon-sass-plain"></i>Sass</li>
                     <li><i class="devicon-javascript-plain"></i>JavaScript</li>
                     <li><i class="devicon-react-plain"></i>ReactJS</li>
-                    <li><i class="devicon-react-plain"></i>JSX</li>
                     <li><i class="devicon-ruby-plain"></i>Ruby</li>
                     <li><i class="devicon-rails-plain"></i>Rails</li>
                     <li><i class="devicon-postgresql-plain"></i>PostgreSQL</li>
@@ -432,7 +555,7 @@
                   <li><i class="devicon-mongodb-plain"></i>MongoDB</li>
                   <li><i class="devicon-heroku-plain"></i>Heroku</li>
                   <li><i class="fa fa-code"></i>Mongoose</li>
-                  <li><i class="fa fa-stripe"></i>Stripe API</li>
+                  <li><i class="fa fa-code"></i>Stripe API</li>
                   <li><i class="fa fa-code"></i>mLab</li>
                 </ul>
                 <div class="card-action">
@@ -530,41 +653,6 @@
               </div>
             </div>
 
-            <!-- CommunityConnect -->
-            <!-- <div id="project-communityconnect" class="card horizontal">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of CommunityConnect" src="images/screenshots/" class="activator">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator indigo-text hoverline">Community Connect
-                  <i class="mdi-navigation-more-vert right"></i>
-                </span>
-                <p>Project created by Code for Boston to help social workers identify and provide resources to clients.</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text">Technologies
-                  <i class="mdi-navigation-close right"></i>
-                </span>
-                <ul>
-                  <li><i class="devicon-html5-plain"></i>HTML5</li>
-                  <li><i class="devicon-css3-plain"></i>CSS3</li>
-                  <li><i class="devicon-react-plain">ReactJS</i></li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank"
-                     data-position="top" data-tooltip="View Online"
-                     class="btn-floating btn-large waves-effect waves-light teal tooltipped">
-                     <i class="fa fa-external-link"></i>
-                   </a>
-                   <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank"
-                      data-position="top" data-tooltip="View GitHub Repository"
-                      class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                     <i class="fa fa-github"></i>
-                   </a>
-                 </div>
-               </div>
-              </div> -->
-
             <!-- Resumption -->
             <div id="project-resumption" class="card horizontal">
               <div class="card-image waves-effect waves-block waves-light">
@@ -623,6 +711,9 @@
                 <div class="row text-center">
                   <div class="col s4 m2">
                     <img alt src="images/tech/javascript.png" class="responsive-img">JavaScript
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/typescript.png" class="responsive-img">TypeScript
                   </div>
                   <div class="col s4 m2">
                     <img alt src="images/tech/java.jpg" class="responsive-img">Java
@@ -707,11 +798,22 @@
             </div>
             <div class="card">
               <div class="card-content">
-                <h4 class="brown-text light">Back-End</h4>
+                <h4 class="brown-text light">Frameworks</h4>
                 <div class="row text-center">
                   <div class="col s4 m2">
                     <img alt src="images/tech/rails.png" class="responsive-img">Rails
                   </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/spring.png" class="responsive-img">Spring
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Back-end/DB</h4>
+                <div class="row text-center">
+                  
                   <div class="col s4 m2">
                     <img alt src="images/tech/postgresql.png" class="responsive-img">PostgreSQL
                   </div>
@@ -722,17 +824,20 @@
                     <img alt src="images/tech/mongodb2.png" class="responsive-img">MongoDB
                   </div>
                   <div class="col s4 m2">
-                    <img alt src="images/tech/tomcat.png" class="responsive-img">Tomcat
+                    <img alt src="images/tech/oracle.png" class="responsive-img">Oracle
                   </div>
                   <div class="col s4 m2">
-                    <img alt src="images/tech/apache-logo.png" class="responsive-img">Apache
+                    <img alt src="images/tech/mongoose.jpg" class="responsive-img">Mongoose 
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/hibernate.png" class="responsive-img">Hibernate
                   </div>
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-content">
-                <h4 class="brown-text light">Testing/QA</h4>
+                <h4 class="brown-text light">Testing</h4>
                 <div class="row text-center">
                   <div class="col s4 m2">
                     <img alt src="images/tech/selenium.png" class="responsive-img">Selenium
@@ -773,7 +878,7 @@
             </div>
             <div class="card">
               <div class="card-content">
-                <h4 class="brown-text light">Tools</h4>
+                <h4 class="brown-text light">IDEs</h4>
                 <div class="row text-center">
                   <div class="col s4 m2">
                     <img alt src="images/tech/eclipse.png" class="responsive-img">Eclipse
@@ -782,16 +887,32 @@
                     <img alt src="images/tech/atom.png" class="responsive-img">Atom
                   </div>
                   <div class="col s4 m2">
-                    <img alt src="images/tech/grunt.png" class="responsive-img">Grunt
+                    <img alt src="images/tech/vscode.png" class="responsive-img">VS Code
                   </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Tools</h4>
+                <div class="row text-center">
+                  <!--<div class="col s4 m2">
+                    <img alt src="images/tech/maven.png" class="responsibe-img">Maven
+                  </div>-->
                   <div class="col s4 m2">
-                    <img alt src="images/tech/git.png" class="responsive-img">Git
+                    <img alt src="images/tech/grunt.png" class="responsive-img">Grunt
                   </div>
                   <div class="col s4 m2">
                     <img alt src="images/tech/webpack.png" class="responsive-img">Webpack
                   </div>
                   <div class="col s4 m2">
                     <img alt src="images/tech/npm.png" class="responsive-img">NPM
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/tomcat.png" class="responsive-img">Tomcat
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/apache-logo.png" class="responsive-img">Apache
                   </div>
                 </div>
               </div>
