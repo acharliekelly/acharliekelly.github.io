@@ -7,7 +7,8 @@
       <!-- Materialize - Compiled and minified CSS-->
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
       <!-- Font Awesome Icon - CSS-->
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/f5635066a5.js" crossorigin="anonymous"></script>
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <!-- Dev Icons - CSS -->
       <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
       <!-- Custom Styles-->
@@ -53,7 +54,7 @@
           <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark red-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
           <li class="bold">
             <a aria-label="Open Charlie's resume in a new tab" href="https://docs.google.com/document/d/1W-9Ym-GX84PYta0eC5Aw-HXjPysQXkfhe6waYwq5wPk"
-               target="_blank" class="waves-effect waves-dark grey-text text-darken-3">
+               target="_blank" rel="noopener" class="waves-effect waves-dark grey-text text-darken-3">
                <i class="mdi-action-description small"></i><span>Resume</span>
              </a></li>
         </ul>
@@ -69,20 +70,30 @@
           <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark green-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
           <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
           <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark red-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-          <li class="bold"><a aria-label="Open Charlie's Resume in a new tab" href="https://docs.google.com/document/d/1W-9Ym-GX84PYta0eC5Aw-HXjPysQXkfhe6waYwq5wPk" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+          <li class="bold"><a aria-label="Open Charlie's Resume in a new tab" href="https://drive.google.com/file/d/1WEksvIIgIL9Ee2uM7jRLpis3os7xFhC4/view?usp=sharing" 
+            target="_blank" rel="noopener" class="waves-effect waves-dark grey-text text-darken-3">
+            <i class="mdi-action-description small"></i><span>Resume</span>
+          </a></li>
         </ul>
       </nav>
       <main>
         <section id="intro" class="section scrollspy full-height">
           <div class="overlay"></div>
           <div class="container">
-            <h2>I like to <span class="purple darken-2">create things</span></h2>
-            <h3>This includes software applications, web sites, and also paintings</h3>
+            <h2>I like to <span class="purple darken-2">create things</span>,</h2>
+            <h4>including 
+                <span class="blue darken-1">software applications</span> and
+                <span class="indigo darken-1">web sites</span>,
+              </h4>
+            <h4>
+               and also <span class="pink darken-2">paintings</span>.</h4>
+            </h4>
+                
           </div>
           <div class="portrait">
             <img alt="Me" src="images/me2.jpg" class="circle responsive-img">
           </div>
-
+          
         </section>
 
         <!-- About -->
@@ -92,7 +103,7 @@
             <p>I'm a software engineer based in Boston, MA.</p>
             <h4>TL;DR</h4>
             <p>
-              Made a career change from IT to Development. Looking for relatively junior roles in which wearing many hats is a plus. 
+              Recently got back into development after several years in non-profit IT management
             </p>
             <h4>Longer</h4>
             <p>
@@ -109,7 +120,7 @@
               eliminate one legacy component: the platform's navigation system was a 5MB Java applet, which needed to be loaded before the
               app would run. I replaced this with a set of asynchronous JSF components, dramatically improving performance while also making
               it possible to run our platform on a PlayStation (because apparently there was a need for that within our customer base).</p>
-            <p>Around that time, the economy imploded, and the company I was with suddenly had no need for engineers.
+            <p>Around that time, the economy imploded, and the company I was with suddenly had no need for engineers (or employees).
               So I tried my hand at some related fields, such as designing websites for small business and non-profit clients.
               One of my non-profit clients had an upcoming database development project that sounded interesting, so I signed on with them.
               The next thing I knew, I had morphed from Dev to DevOps to just Ops, and there was a lot of Ops.</p>
@@ -135,14 +146,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://cantimaginewhy.com" target="_blank" rel="noopenr noreferrer">
+                    <a href="https://cantimaginewhy.com" target="_blank" rel="noopener">
                       <img alt="Can't Imagine Why" class="responsive-img center-block" src="images/projects/CK-bw.png">
                     </a>
                   </div>
                   <div class="col s12 m2">
                     <p>
                       <span class="card-title">
-                        <a href="https://cantimaginewhy.com" target="_blank" rel="noopenr noreferrer" class="indigo-text hoverline">Can't Imagine Why</a>
+                        <a href="https://cantimaginewhy.com" target="_blank" rel="noopener" class="indigo-text hoverline">Can't Imagine Why</a>
                       </span>
                     </p>
                   </div>
@@ -166,14 +177,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://lovl.tv" target="_blank">
+                    <a href="http://lovl.tv" target="_blank" rel="noopener">
                       <img alt="LOVL" class="responsive-img center-block" src="images/projects/lovl.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://lovl.tv" target="_blank" class="indigo-text hoverline">Live Online Video Learning</a>
+                        <a href="http://lovl.tv" target="_blank" rel="noopener" class="indigo-text hoverline">Live Online Video Learning</a>
                       </span>
                     </p>
                   </div>
@@ -196,14 +207,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://aane.org" target="_blank">
+                    <a href="https://aane.org" target="_blank" rel="noopener">
                       <img alt="AANE Logo" class="responsive-img center-block" src="images/projects/aane_logo.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://aane.org" target="_blank" class="indigo-text hoverline">Asperger/Autism Network</a>
+                        <a href="https://aane.org" target="_blank" rel="noopener" class="indigo-text hoverline">Asperger/Autism Network</a>
                       </span>
                     </p>
                   </div>
@@ -236,14 +247,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://www.wecantest.com/" target="_blank">
+                    <a href="http://www.wecantest.com/" target="_blank" rel="noopener">
                       <img alt="WeCanTest Logo" class="responsive-img center-block" src="images/projects/wecantest.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://www.wecantest.com/" target="_blank" class="indigo-text hoverline">We Can Test!</a>
+                        <a href="http://www.wecantest.com/" target="_blank" rel="noopener" class="indigo-text hoverline">We Can Test!</a>
                       </span>
                     </p>
                   </div>
@@ -265,14 +276,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://www.katrinacostedio.com/" target="_blank">
+                    <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener">
                       <img alt="KCD Logo" class="responsive-img center-block" src="images/projects/kcd.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://www.katrinacostedio.com/" target="_blank" class="indigo-text hoverline">Costedio Design</a>
+                        <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Costedio Design</a>
                       </span>
                     </p>
                   </div>
@@ -296,14 +307,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://logmatrix.com/" target="_blank">
+                    <a href="http://logmatrix.com/" target="_blank" rel="noopener">
                       <img alt="Open Service Logo" class="responsive-img center-block" src="images/projects/open-service.jpg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://logmatrix.com/" target="_blank" class="indigo-text hoverline">Open Service</a>
+                        <a href="http://logmatrix.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Open Service</a>
                       </span>
                     </p>
                   </div>
@@ -330,14 +341,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.alterian.com/" target="_blank">
+                    <a href="https://www.alterian.com/" target="_blank" rel="noopener">
                       <img alt="MediaSurface Logo" class="responsive-img center-block" src="images/projects/alterian.jpg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://en.wikipedia.org/wiki/Mediasurface" target="_blank" class="indigo-text hoverline">MediaSurface</a>
+                        <a href="https://en.wikipedia.org/wiki/Mediasurface" target="_blank" rel="noopener" class="indigo-text hoverline">MediaSurface</a>
                       </span>
                     </p>
                   </div>
@@ -366,14 +377,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.coface-usa.com/" target="_blank">
+                    <a href="https://www.coface-usa.com/" target="_blank" rel="noopener">
                       <img alt="Coface Logo" class="responsive-img center-block" src="images/projects/logo_coface.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://www.coface-usa.com/" target="_blank" class="indigo-text hoverline">Coface Services</a>
+                        <a href="https://www.coface-usa.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Coface Services</a>
                       </span>
                     </p>
                   </div>
@@ -397,14 +408,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.af.mil/" target="_blank">
+                    <a href="https://www.af.mil/" target="_blank" rel="noopener">
                       <img alt="Logo" class="responsive-img center-block" src="images/projects/usaf.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://www.af.mil/" target="_blank" class="indigo-text hoverline">United States Air Force</a>
+                        <a href="https://www.af.mil/" target="_blank" rel="noopener" class="indigo-text hoverline">United States Air Force</a>
                       </span>
                     </p>
                   </div>
@@ -452,22 +463,22 @@
                     <li><i class="devicon-react-plain"></i>React</li>
                     <li><i class="devicon-sass-plain"></i>Sass</li>
                     <li><i class="fa fa-code"></i>Storybook</li>
-                    <li><i class="fa fa-code">Cloudinary</i></li>
+                    <li><i class="fa fa-code"></i>Cloudinary</li>
                     <li><i class="devicon-nodejs-plain"></i>NodeJS</li>
                     <li><i class="devicon-bootstrap-plain"></i>Bootstrap</li>
                   </ul>
                   <div class="card-action">
-                    <a aria-label="Visit Online" href="https://cantimaginewhy.com" target="_blank" rel="noopenr noreferrer"
+                    <a aria-label="Visit Online" href="https://cantimaginewhy.com" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                       <i class="fa fa-external-link"></i>
                     </a>
-                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/cantimaginewhy" target="_blank" rel="noopenr noreferrer"
+                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/cantimaginewhy" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="Visit GitHub Repo" class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                      <i class="fa fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a aria-label="Visit Development Blog" href="https://cantimaginehow.blogspot.com" target="_blank" rel="noopenr noreferrer"
+                    <a aria-label="Visit Development Blog" href="https://cantimaginehow.blogspot.com" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="Visit Development Blog" class="btn-floating btn-large waves-effect waves-light blue tooltipped">
-                      <i class="fa fa-external-link"></i>
+                      <i class="fab fa-blogger"></i>
                     </a>
                   </div>
                 </div>
@@ -496,17 +507,17 @@
                   </ul>
                   <div class="card-action">
 
-                    <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank"
+                    <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="View Online"
                        class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                        <i class="fa fa-external-link"></i>
                      </a>
-                     <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank"
+                     <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank" rel="noopener"
                         data-position="top" data-tooltip="View GitHub Repository"
                         class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                       <i class="fa fa-github"></i>
+                       <i class="fab fa-github"></i>
                      </a>
-                     <a aria-label="Visit Code for Boston" href="http://codeforboston.org/" target="_blank"
+                     <a aria-label="Visit Code for Boston" href="http://codeforboston.org/" target="_blank" rel="noopener"
                         data-position="top" data-tooltip="Visit Code for Boston"
                         class="btn-floating btn-large waves-effect waves-light purple tooltipped">
                         <img src="images/projects/c4b.jpeg" style="height: 40px; vertical-align: middle;">
@@ -548,7 +559,7 @@
                     </a>
                     <a href="#" data-position="top" data-tooltip="Private Repo"
                        class="btn-floating btn-large waves-effect waves-light gray tooltipped disabled">
-                      <i class="fa fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </a>
                   </div>
                 </div>
@@ -586,20 +597,20 @@
                     <li><i class="devicon-google-plain"></i>Google Maps API</li>
                   </ul>
                   <div class="card-action">
-                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/bikon" target="_blank"
+                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/bikon" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="View Online"
                        class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                       <i class="fa fa-external-link"></i>
                     </a>
-                    <a aria-label="Visit Front-End GitHub Repository" href="https://github.com/acharliekelly/bikon" target="_blank"
+                    <a aria-label="Visit Front-End GitHub Repository" href="https://github.com/acharliekelly/bikon" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="Visit Front-End GitHub Repository"
                        class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                      <i class="fa fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a aria-label="Visit Back-End GitHub Repository" href="https://github.com/acharliekelly/bikon-api" target="_blank"
+                    <a aria-label="Visit Back-End GitHub Repository" href="https://github.com/acharliekelly/bikon-api" target="_blank" rel="noopener"
                        data-position="top" data-tooltip="Visit Back-End GitHub Repository"
                        class="btn-floating btn-large waves-effect waves-light blue tooltipped">
-                      <i class="fa fa-github"></i>
+                      <i class="fab fa-github"></i>
                     </a>
                   </div>
                 </div>
@@ -640,20 +651,20 @@
                   <li><i class="fa fa-code"></i>mLab</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Online" href="https://wdi-3-0.github.io/nile-client" target="_blank"
+                  <a aria-label="Visit Online" href="https://wdi-3-0.github.io/nile-client" target="_blank" rel="noopener"
                      data-position="top" data-tooltip="View Online"
                      class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
-                  <a aria-label="Visit GitHub Repository for Front End" href="https://github.com/wdi-3-0/nile-client" target="_blank"
+                  <a aria-label="Visit GitHub Repository for Front End" href="https://github.com/wdi-3-0/nile-client" target="_blank" rel="noopener"
                      data-position="top" data-tooltip="Visit Front-End GitHub Repository"
                      class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                    <i class="fa fa-github"></i>
+                    <i class="fab fa-github"></i>
                    </a>
-                   <a aria-label="Visit GitHub Repository for Back End" href="https://github.com/wdi-3-0/nile-api" target="_blank"
+                   <a aria-label="Visit GitHub Repository for Back End" href="https://github.com/wdi-3-0/nile-api" target="_blank" rel="noopener"
                       data-position="top" data-tooltip="Visit Back End GitHub Repository"
                       class="btn-floating btn-large waves-effect waves-light blue tooltipped">
-                    <i class="fa fa-github"></i>
+                    <i class="fab fa-github"></i>
                   </a>
                 </div>
               </div>
@@ -689,15 +700,15 @@
                   <li><i class="devicon-nodejs-plain"></i>NodeJS</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Online" href="https://acharliekelly.github.io/ttt-client" target="_blank"
+                  <a aria-label="Visit Online" href="https://acharliekelly.github.io/ttt-client" target="_blank" rel="noopener"
                      data-position="top" data-tooltip="View Online"
                      class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
-                  <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/ttt-client" target="_blank"
+                  <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/ttt-client" target="_blank" rel="noopener"
                      data-position="top" data-tooltip="Visit GitHub Repository"
                      class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
-                    <i class="fa fa-github"></i>
+                    <i class="fab fa-github"></i>
                    </a>
                 </div>
               </div>
@@ -726,7 +737,7 @@
                   <li><i class="devicon-php-plain"></i>PHP</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit AANE website" href="https://aane.org" target="_blank" data-position="top" data-tooltip="View Online"
+                  <a aria-label="Visit AANE website" href="https://aane.org" target="_blank" rel="noopener" data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
@@ -961,14 +972,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://generalassemb.ly" target="_blank">
+                    <a class="logo" href="https://generalassemb.ly" target="_blank" rel="noopener">
                       <img alt="GA Logo" class="responsive-img center-block" src="images/projects/ga.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://generalassemb.ly" target="_blank">General Assembly</a>
+                        <a class="indigo-text hoverline" href="https://generalassemb.ly" target="_blank" rel="noopener">General Assembly</a>
                       </span>
                     </p>
                   </div>
@@ -985,14 +996,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://www.charteroak.edu/" target="_blank">
+                    <a class="logo" href="https://www.charteroak.edu/" target="_blank" rel="noopener">
                       <img alt="Charter Oak Logo" class="responsive-img center-block" src="images/projects/cosc.jpeg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://www.charteroak.edu/" target="_blank">Charter Oak State College</a>
+                        <a class="indigo-text hoverline" href="https://www.charteroak.edu/" target="_blank" rel="noopener">Charter Oak State College</a>
                       </span>
                     </p>
                   </div>
@@ -1010,7 +1021,7 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://www.qcc.edu/" target="_blank">
+                    <a class="logo" href="https://www.qcc.edu/" target="_blank" rel="noopener">
                       <img alt="QCC Logo" class="responsive-img center-block" src="images/projects/qcc.png">
                     </a>
                   </div>
@@ -1044,11 +1055,11 @@
               </a>
             </p>
             <p>
-              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-github"></i>
+              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                <i class="fab fa-github"></i>
               <a alt="" href="http://github.com/acharliekelly" class="hoverline">github.com/acharliekelly</a></a></p>
-            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-              <i class="fa fa-linkedin"></i>
+            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+              <i class="fab fa-linkedin"></i>
               <a alt="" href="http://linkedin.com/in/acharliekelly" class="hoverline">linkedin.com/in/acharliekelly</a></a></p>
           </div>
         </section>
