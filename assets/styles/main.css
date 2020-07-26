@@ -32,7 +32,8 @@ nav i {
 	top: 5px;
 }
 main {
-	background: url(../../images/bg.png) repeat;
+	/* background: url(../../images/bg.png) repeat; */
+	background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/w_800/art/esplanade-sunset_2018.jpg);
 	padding-left: 190px;
 }
 ul.side-nav {
