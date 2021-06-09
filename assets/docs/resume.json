@@ -1,0 +1,198 @@
+{
+  "name": "Charlie Kelly",
+  "title": "Software Engineer",
+  "contact-info": {
+    "address": {
+      "city": "Woburn",
+      "state": "MA",
+      "zip-code": "01801"
+    },
+    "phone": "(508) 340-7792",
+    "email": "charliekelly31415@gmail.com",
+    "links": {
+      "portfolio": "https://acharliekelly.github.io",
+      "linkedin": "https://linkedin.com/in/acharliekelly"
+    }
+  },
+  "summary": "Motivated Software Engineer with extensive experience in front and back end application development for multiple industries, with particular expertise in React component design and API integration. Flexible; quick to learn and master new technologies. Creative, detail-oriented, enthusiastic team player.",
+  "skills": {
+    "languages": [ "JavaScript", "Java", "Ruby", "Shell" ],
+    "front-end": [ "React", "JQuery", "HTML5", "CSS3", "Sass", "Bootstrap" ],
+    "back-end": [ "Node", "Express", "REST", "SQL", "MongoDB", "FaunaDB" ],
+    "testing": [ "Jest", "Storybook", "Selenium" ],
+    "services": [ "Cloudinary", "S3", "Heroku", "GitHub", "Netlify", "Firebase" ],
+    "tools": [ "VS Code", "Eclipse", "Grunt", "Webpack", "NPM", "CLI" ]
+  },
+  "work-experience": [
+    {
+      "company": {
+        "name": "Code for Boston",
+        "location": "Boston, MA",
+        "website": "https://www.codeforboston.org/"
+      },
+      "role": "Software Engineer (volunteer)",
+      "start-date": "2019-01-14",
+      "end-date": "2020-08-28",
+      "achievements": [
+        "Contributed to multiple projects for the betterment of the community, both by writing code to solve specific problems and by reviewing PRs and documenting issues.",
+        "Participated in rigorous Agile process for project development; encourage professional standards among other contributors",
+        "Assisted in onboarding new volunteers, explaining workflows and mentoring junior developers"
+      ]
+    },
+    {
+      "company": {
+        "name": "Can't Imagine Why",
+        "location": "Waltham, MA",
+        "website": "https://cantimaginewhy.com"
+      },
+      "role": "Software Engineer",
+      "start-date": "2019-07-01",
+      "end-date": "2020-08-01",
+      "achievements": [
+        "Created and led design team in building a web site/ application to display and sell art work with no overhead costs and minimal setup, using modular React components",
+        "Leveraged existing free-tier APIs for zero-cost back-end"
+      ]
+    },
+    {
+      "company": {
+        "name": "ScoreBase",
+        "location": "Waltham, MA"
+      },
+      "role": "Consultant",
+      "start-date": "2020-05-01",
+      "end-date": "2020-06-01",
+      "achievements": [
+        "Helped finalize UX design for FinTech startup app",
+        "Created authentication and Firebase integration",
+        "Configured CI pipeline for ongoing development and testing"
+      ]
+    },
+    {
+      "company": {
+        "name": "Live Online Video Learning",
+        "location": "Boston, MA"
+      },
+      "role": "Consultant",
+      "start-date": "2019-04-21",
+      "end-date": "2019-07-01",
+      "achievements": [
+        "Created TypeScript-based React components for start-up’s video tutoring platform using MongoDB and REST APIs",
+        "Developed independent component tests in Storybook for assessing performance outside deployed application",
+        "Authored continuous integration and unit tests"
+      ]
+    },
+    {
+      "company": {
+        "name": "WeCanTest!",
+        "location": "Acton, MA",
+        "website": "http://wecantest.com"
+      },
+      "role": "QA Engineer",
+      "start-date": "2017-07-01",
+      "end-date": "2018-09-01",
+      "achievements": [
+        "Developed automated regression test suites in Java for production web and mobile applications using Selenium and Appium implementations with Apache Maven",
+        "Developed CI/CD tests for deployment both locally and with Jenkins and AWS"
+      ]
+    },
+    {
+      "company": {
+        "name": "Asperger/Autism Network",
+        "location": "Watertown, MA",
+        "website": "http://aane.org"
+      },
+      "role": "IT Specialist",
+      "start-date": "2012-07-12",
+      "end-date": "2019-01-28",
+      "achievements": [
+        "Provided operational and development support for technical needs of non-profit, including network management, system integration, database development and maintaining website",
+        "Dramatically improved information security by implementing and administering password management and centralized authentication rules; security remediation tools"
+      ]
+    },
+    {
+      "company": {
+        "name": "Costedio Design",
+        "location": "Sarasota, FL",
+        "website": "http://www.katrinacostedio.com/"
+      },
+      "role": "Technical Director",
+      "start-date": "2008-04-18",
+      "end-date": "2012-06-01",
+      "achievements": [
+        "Designed and constructed over 25 sites for small business and non-profit customers, using HTML, CSS, JavaScript, and JQuery, as well as WordPress",
+        "Worked closely with customers to analyze goals and discuss options based on range of budgets",
+        "Directed and oversaw duties of additional web programmers and subcontractors",
+        "Participated in creative design process as well as planning best technical approach."
+      ]
+    },
+    {
+      "company": {
+        "name": "Open Service",
+        "location": "Marlborough, MA"
+      },
+      "role": "Senior Software Engineer",
+      "start-date": "2007-01-29",
+      "end-date": "2008-04-06",
+      "achievements": [
+        "Principal front-end developer for an enterprise network security and threat detection suite, using J2EE and JSF",
+        "Converted Applet-based interface into completely new platform using Java Server Faces",
+        "Advocated and successfully achieved migration of product away from applet-based interfaces towards Ajax, resulting in significant improvement in customer satisfaction",
+        "Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications."
+      ]
+    },
+    {
+      "company": {
+        "name": "Mediasurface",
+        "location": "Stamford, CT",
+        "website": "https://www.thomsonreuters.com/en.html"
+      },
+      "role": "Software Engineer",
+      "start-date": "2006-05-20",
+      "end-date": "2007-01-08",
+      "achievements": [
+        "Worked with project team to design and implement custom public-facing Content Management System for Thomson-Reuters (now Reuters)",
+        "Quickly mastered API for proprietary CMS platform",
+        "Integrated into team of consultants and client employees to build brand new public website for multinational media giant within narrow time frame",
+        "Built numerous JSP-based components to plug into framework"
+      ]
+    },
+    {
+      "company": {
+        "name": "Coface Services",
+        "location": "New Haven, CT",
+        "website": "https://www.coface-usa.com/"
+      },
+      "role": "Software Engineer",
+      "start-date": "2003-08-21",
+      "end-date": "2005-10-31",
+      "achievements": [
+        "Developed over 20 internal business applications based on Oracle back-end with VB or JSP Projects ranged from tiny VB/MS Access apps that offered users access to database, to enterprise-wide web-based reporting solutions",
+        "Went above and beyond project requirements by creating enjoyable user experiences."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": {
+        "name": "General Assembly",
+        "location": "Boston, MA",
+        "website": "https://generalassemb.ly"
+      },      
+      "start-date": "2019-01-28",
+      "end-date": "2019-04-19",
+      "program": "Web Development Immersive Fellowship",
+      "degree": "Certificate"
+    },
+    {
+      "school": {
+        "name": "Charter Oak State College",
+        "location": "New Britain, CT",
+        "website": "https://www.charteroak.edu/"
+      },
+      "start-date": "2016-01-16",
+      "end-date": "2017-05-29",
+      "program": "Information Systems",
+      "degree": "B.S."
+    }
+  ]
+}
