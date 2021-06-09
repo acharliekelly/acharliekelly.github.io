@@ -51,10 +51,10 @@
           <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
           <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark red-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
           <li class="bold">
-            <a aria-label="Open Charlie's resume in a new tab" href="https://docs.google.com/document/d/1W-9Ym-GX84PYta0eC5Aw-HXjPysQXkfhe6waYwq5wPk"
-               target="_blank" rel="noopener" class="waves-effect waves-dark grey-text text-darken-3">
-               <i class="mdi-action-description small"></i><span>Resume</span>
-             </a></li>
+            <a aria-label="Navigate to the Resume section" href="#resume" class="waves-effect waves-dark grey-text text-darken-3">
+              <i class="mdi-action-description small"></i><span>Resume</span>
+            </a>
+          </li>
         </ul>
       </nav>
       <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -68,10 +68,11 @@
           <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark green-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
           <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
           <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark red-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-          <li class="bold"><a aria-label="Open Charlie's Resume in a new tab" href="./assets/docs/CharlieKelly-FS-mid.pdf" 
-            target="_blank" rel="noopener" class="waves-effect waves-dark grey-text text-darken-3">
-            <i class="mdi-action-description small"></i><span>Resume</span>
-          </a></li>
+          <li class="bold">
+            <a aria-label="Navigate to the Resume section" href="#resume" class="waves-effect waves-dark grey-text text-darken-3">
+              <i class="mdi-action-description small"></i><span>Resume</span>
+            </a>
+          </li>
         </ul>
       </nav>
       <main>
@@ -1077,7 +1078,7 @@
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://www.qcc.edu/">Quinsigamond Community College</a>
+                        <a class="indigo-text hoverline" href="https://www.qcc.edu/" target="_blank" rel="noopener">Quinsigamond Community College</a>
                       </span>
                     </p>
                   </div>
@@ -1098,18 +1099,42 @@
           <div class="container">
             <p>
               <a aria-label="Email Charlie" href="mailto:charliekelly31415@gmail.com" data-position="top" data-tooltip="Email Charlie"
-                 class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+                 class="btn-floating btn-large waves-effect waves-light red tooltipped">
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:charliekelly31415@gmail.com" class="hoverline">charliekelly31415@gmail.com</a>
+                <a href="mailto:charliekelly31415@gmail.com" target="_blank" rel="noopener" class="hoverline">charliekelly31415@gmail.com</a>
               </a>
             </p>
             <p>
-              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light red tooltipped">
                 <i class="fab fa-github"></i>
-              <a alt="" href="http://github.com/acharliekelly" class="hoverline">github.com/acharliekelly</a></a></p>
-            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
+              <a alt="" href="http://github.com/acharliekelly" target="_blank" rel="noopener" class="hoverline">github.com/acharliekelly</a></a></p>
+            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light red tooltipped">
               <i class="fab fa-linkedin"></i>
-              <a alt="" href="http://linkedin.com/in/acharliekelly" class="hoverline">linkedin.com/in/acharliekelly</a></a></p>
+              <a class="hoverline" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener">linkedin.com/in/acharliekelly</a></a></p>
+          </div>
+        </section>
+        <section id="resume" class="section scrollspy">
+          <h3 class="page-title white-text black">Resume</h3>
+          <div class="container">
+            <p>
+              <a aria-label="Open PDF" href="./assets/docs/CharlieKelly_SeGen.PDF" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as PDF">
+                <i class="fa fa-file-pdf"></i>
+                <a href="./assets/docs/CharlieKelly_SeGen.PDF" target="_blank" rel="noopener" class="hoverline">Open as PDF</a>
+              </a>
+            </p>
+            <p>
+              <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as JSON">
+                <i class="fa fa-file-code"></i>
+                <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener" class="hoverline">Open as JSON</a>
+              </a>
+            </p>
+            <!-- TODO: transform JSON-->
+            <!-- <p>
+              <a aria-label="Other Format" href="resume.html" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark grey tooltipped"  data-position="top" data-tooltip="View Resume">
+                <i class="fa fa-file-code"></i>
+                <span class="hoverline">Format TBD</span>
+              </a>
+            </p> -->
           </div>
         </section>
       </main>
