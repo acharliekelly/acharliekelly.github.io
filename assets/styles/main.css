@@ -109,10 +109,13 @@ h3 {
 /* SECTIONS */
 
 /* #INTRO */
-#intro.section {
-	background: url((https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg) no-repeat top center/cover;
+/* #intro.section {
 	position: relative;
-}
+	background-image: url((https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+} */
 #intro.section .container {
 	color: white;
 	font-weight: 200;
