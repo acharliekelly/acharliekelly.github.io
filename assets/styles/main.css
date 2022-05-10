@@ -36,7 +36,8 @@ main {
 	background-color: white;
 }
 main #intro .overlay {
-	background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/w_800/art/esplanade-sunset_2018.jpg);
+	/* background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/w_800/art/esplanade-sunset_2018.jpg); */
+	background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -109,7 +110,7 @@ h3 {
 
 /* #INTRO */
 #intro.section {
-	background: url(https://res.cloudinary.com/cantimaginewhy/image/upload/v1564113960/art/esplanade-sunset_2018.jpg) no-repeat top center/cover;
+	background: url((https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg) no-repeat top center/cover;
 	position: relative;
 }
 #intro.section .container {
