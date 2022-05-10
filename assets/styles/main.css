@@ -156,6 +156,12 @@ h3 {
 	top: 0;
 	width: 100%;
 }
+.mission-statement {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+}
 
 .waves-effect.waves-blue .waves-ripple {
    /* The alpha value allows the text and background color
