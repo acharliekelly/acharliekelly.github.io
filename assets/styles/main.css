@@ -157,8 +157,7 @@ h3 {
 	width: 100%;
 }
 .mission-statement {
-	display: flex;
-	justify-content: flex-end;
+	display: flexS;
 
 
 }
