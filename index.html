@@ -100,64 +100,70 @@
           <h3 class="page-title white-text purple">About</h3>
           <div class="container flow-text">
             <p>I'm a software engineer based in Boston, MA.</p>
-            <h4>TL;DR</h4>
-            <p>
-              Recently got back into development after several years in non-profit IT management
+            <p>My most recent project was rebuilding ChooseWork, the site for Social Security beneficiaries who
+              want to rejoin the workforce. Before that, I was a Social Security beneficiary who wanted to rejoin
+              the workforce. Interestingly, the second fact has nothing to do with the first; it's just a fun
+              coincidence.
             </p>
-            <h4>Longer</h4>
-            <p>
-              My development career began in the late 90s, playing around with Excel spreadsheets and disovering
-              all the things you could do with macros. That led to learning VBA, and then to building several applications
-              based on MS Access. In one instance, I created an Access-based solution for a data entry job I was doing,
-              and ended up eliminating the need for my position. I saw it as a win, but the staffing agency I was nominally
-              working for was less thrilled.</p>
-            <p>So I got a job making database applications instead. My next job was writing small applications in VB and MS Office to
-              interact with the company's Oracle 9i database. Later, that same company switched to Java, so I re-wrote all those applications
-              as JSP-based web apps.</p>
-            <p>I spent several years working as a Java developer, tending towards front-end work. My last job in that field was as
-              principal UI developer for 2 major commercial releases of an enterprise network security platform. My key contribution was to
-              eliminate one legacy component: the platform's navigation system was a 5MB Java applet, which needed to be loaded before the
-              app would run. I replaced this with a set of asynchronous JSF components, dramatically improving performance while also making
-              it possible to run our platform on a PlayStation (because apparently there was a need for that within our customer base).</p>
-            <p>Around that time, the economy imploded, and the company I was with suddenly had no need for engineers (or employees).
-              So I tried my hand at some related fields, such as designing websites for small business and non-profit clients.
-              One of my non-profit clients had an upcoming database development project that sounded interesting, so I signed on with them.
-              The next thing I knew, I had morphed from Dev to DevOps to just Ops, and there was a lot of Ops.</p>
-            <p>I made a couple of attempts at returning to full-time development, but my engineering skills took a hit in the interim.
-              By then, Java had evolved significantly from where I last saw it, and even my familiar versioning tools (CVS and SubVersion) had
-              all been replaced by Git.</p>
-            <p>Then I came across General Assembly, which offered the perfect solution for me: an intensive training course designed to teach some
-              of the latest, hottest tools in the field, to get me caught up with all the things I'd missed (eg, what exactly does <em>Agile</em> mean?).</p>
-            <p>I learned a bunch of new skills, like Rails, Node, and React; plus I can handle Git from the command line in my sleep. I also
-              got to collaborate on group projects, which is something I was sorely missing in my latest role where I was typically the <em>only</em>
-              technical person on site. </p>
-            <p>Since finishing the GA bootcamp, I've been doing mostly freelance and volunteer work to hone my skills, particularly
-              with NodeJS and ReactJS. You can see some of my recent <a href="#projects">projects</a> below.</p>
-          </div>
+            
         </section>
 
         <!-- Experience -->
         <section id="experience" class="section scrollspy">
           <h3 class="page-title white-text indigo">Experience</h3>
           <div class="container">
+            <!-- Percussion -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://percussion.com" target="_blank" rel="noopener noreferrer">
+                      <img alt="Percussion Software" class="responsive-img center-block" src="images/projects/percussion.png">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://percussion.com" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Percussion Software</a>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="role brown-text">Success Engineer</div>
+                  <p><em>Content Management Software</em></p>
+                  <!-- TODO: Responsibilities -->
+                  <h6>Accomplishments</h6>
+                  <ul>
+                    <li>Primary engineer on $80M federal contract to migrate two SSA subdomains (ChooseWork and YourTicketToWork) 
+                      to Azure Cloud, without config files or documentation from incumbent contractor; migrated CMS for both sites, 
+                      as well as 8 custom Java apps</li>
+                    <li>Provide daily expert support for 30+ institutional and government CMS customers</li>
+                    <li>Author and execute manual and automated QA for product features and upgrades </li>
+                  </ul>
+                </div>
+                <div class="card-action">
+                  <span>November 2022 - Present</span>
+                </div>
+              </div>
+            </div>
+
             <!-- Can't Imagine Why -->
             <div class="card">
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://cantimaginewhy.com" target="_blank" rel="noopener">
+                    <a href="https://cantimaginewhy.com" target="_blank" rel="noopener noreferrer">
                       <img alt="Can't Imagine Why" class="responsive-img center-block" src="images/projects/ciw.jpg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://cantimaginewhy.com" target="_blank" rel="noopener" class="indigo-text hoverline">Can't Imagine Why</a>
+                        <a href="https://cantimaginewhy.com" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Can't Imagine Why</a>
                       </span>
                     </p>
                   </div>
                 </div>
-                <div class="role brown-text">Lead Software Engineer</div>
+                <div class="role brown-text">Software Engineer / Artist</div>
                 <p><em>Site to display and sell artwork and derived products</em></p>
                 <h6>Accomplishments</h6>
                 <ul>
@@ -167,7 +173,7 @@
                 </ul>
               </div>
               <div class="card-action">
-                <span>July 2019 - Present</span>
+                <span>July 2019 - August 2020</span>
               </div>
             </div>
 
@@ -176,14 +182,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://lovl.tv" target="_blank" rel="noopener">
+                    <a href="http://lovl.tv" target="_blank" rel="noopener noreferrer">
                       <img alt="LOVL" class="responsive-img center-block" src="images/projects/lovl.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://lovl.tv" target="_blank" rel="noopener" class="indigo-text hoverline">Live Online Video Learning</a>
+                        <a href="http://lovl.tv" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Live Online Video Learning</a>
                       </span>
                     </p>
                   </div>
@@ -206,14 +212,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://aane.org" target="_blank" rel="noopener">
+                    <a href="https://aane.org" target="_blank" rel="noopener noreferrer">
                       <img alt="AANE Logo" class="responsive-img center-block" src="images/projects/aane_logo.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://aane.org" target="_blank" rel="noopener" class="indigo-text hoverline">Asperger/Autism Network</a>
+                        <a href="https://aane.org" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Asperger/Autism Network</a>
                       </span>
                     </p>
                   </div>
@@ -246,14 +252,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://www.wecantest.com/" target="_blank" rel="noopener">
+                    <a href="http://www.wecantest.com/" target="_blank" rel="noopener noreferrer">
                       <img alt="WeCanTest Logo" class="responsive-img center-block" src="images/projects/wecantest.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://www.wecantest.com/" target="_blank" rel="noopener" class="indigo-text hoverline">We Can Test!</a>
+                        <a href="http://www.wecantest.com/" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">We Can Test!</a>
                       </span>
                     </p>
                   </div>
@@ -275,14 +281,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener">
+                    <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener noreferrer">
                       <img alt="KCD Logo" class="responsive-img center-block" src="images/projects/kcd.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Costedio Design</a>
+                        <a href="http://www.katrinacostedio.com/" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Costedio Design</a>
                       </span>
                     </p>
                   </div>
@@ -306,14 +312,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="http://logmatrix.com/" target="_blank" rel="noopener">
+                    <a href="http://logmatrix.com/" target="_blank" rel="noopener noreferrer">
                       <img alt="Open Service Logo" class="responsive-img center-block" src="images/projects/open-service.jpg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="http://logmatrix.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Open Service</a>
+                        <a href="http://logmatrix.com/" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Open Service</a>
                       </span>
                     </p>
                   </div>
@@ -340,14 +346,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.alterian.com/" target="_blank" rel="noopener">
+                    <a href="https://www.alterian.com/" target="_blank" rel="noopener noreferrer">
                       <img alt="MediaSurface Logo" class="responsive-img center-block" src="images/projects/alterian.jpg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://en.wikipedia.org/wiki/Mediasurface" target="_blank" rel="noopener" class="indigo-text hoverline">MediaSurface</a>
+                        <a href="https://en.wikipedia.org/wiki/Mediasurface" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">MediaSurface</a>
                       </span>
                     </p>
                   </div>
@@ -376,14 +382,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.coface-usa.com/" target="_blank" rel="noopener">
+                    <a href="https://www.coface-usa.com/" target="_blank" rel="noopener noreferrer">
                       <img alt="Coface Logo" class="responsive-img center-block" src="images/projects/logo_coface.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://www.coface-usa.com/" target="_blank" rel="noopener" class="indigo-text hoverline">Coface Services</a>
+                        <a href="https://www.coface-usa.com/" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Coface Services</a>
                       </span>
                     </p>
                   </div>
@@ -407,14 +413,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a href="https://www.af.mil/" target="_blank" rel="noopener">
+                    <a href="https://www.af.mil/" target="_blank" rel="noopener noreferrer">
                       <img alt="Logo" class="responsive-img center-block" src="images/projects/usaf.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a href="https://www.af.mil/" target="_blank" rel="noopener" class="indigo-text hoverline">United States Air Force</a>
+                        <a href="https://www.af.mil/" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">United States Air Force</a>
                       </span>
                     </p>
                   </div>
@@ -438,6 +444,58 @@
         <section id="projects" class="section scrollspy">
           <h3 class="page-title white-text blue">Projects</h3>
           <div class="container">
+            <!-- ChooseWork -->
+            <div id="project-choosework" class="card horizontal">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Choose Work" src="images/screenshots/choosework.png" class="activator">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator indigo-text hoverline">Choose Work
+                  <i class="mdi-navigation-more-vert right"></i>
+                </span>
+                <p>Social Security site for beneficiaries who want to rejoin workforce</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">
+                  Technologies
+                  <i class="mdi-navigation-close right"></i>
+                </span>
+                <ul>
+                  <li><i class="devicon-java-plain"></i>Java</li>
+                  <li><i class="devicon-tomcat-line"></i>Tomcat</li>
+                  <li><i class="devicon-spring-p"></i>Spring MVC</li>
+                  <li><i class="fa fa-code"></i>Wildfly</li>
+                  <li><i class="devicon-oracle-original"></i>Oracle</li>
+                  <li><i class="fa fa-code"></i>Percussion CMS</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- YTTW -->
+            <div id="project-yttw" class="card horizontal">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Your Ticket To Work" src="images/screenshots/yttw.png" class="activator">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator indigo-text hoverline">Your Ticket To Work
+                  <i class="mdi-navigation-more-vert right"></i>
+                </span>
+                <p>Social Security site for organizations that help people rejoin the workforce</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text">
+                  Technologies
+                  <i class="mdi-navigation-close right"></i>
+                </span>
+                <ul>
+                  <li><i class="devicon-java-plain"></i>Java</li>
+                  <li><i class="devicon-azure-plain"></i>Azure</li>
+                  <li><i class="devicon-tomcat-line"></i>Tomcat</li>
+                  <li><i class="devicon-spring-p"></i>Spring MVC</li>
+                  <li><i class="fa fa-code"></i>Percussion CMS</li>
+                </ul>
+              </div>
+            </div>
 
             <!-- Cant Imagine Why -->
             <div id="project-cantimaginewhy" class="card horizontal">
@@ -467,15 +525,15 @@
                     <li><i class="devicon-bootstrap-plain"></i>Bootstrap</li>
                   </ul>
                   <div class="card-action">
-                    <a aria-label="Visit Online" href="https://cantimaginewhy.com" target="_blank" rel="noopener"
+                    <a aria-label="Visit Online" href="https://cantimaginewhy.com" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                       <i class="fa fa-external-link"></i>
                     </a>
-                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/cantimaginewhy" target="_blank" rel="noopener"
+                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/cantimaginewhy" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="Visit GitHub Repo" class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a aria-label="Visit Development Blog" href="https://cantimaginehow.blogspot.com" target="_blank" rel="noopener"
+                    <a aria-label="Visit Development Blog" href="https://cantimaginehow.blogspot.com" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="Visit Development Blog" class="btn-floating btn-large waves-effect waves-light blue tooltipped">
                       <i class="fab fa-blogger"></i>
                     </a>
@@ -506,17 +564,17 @@
                   </ul>
                   <div class="card-action">
 
-                    <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank" rel="noopener"
+                    <a aria-label="Visit Community Connect Online" href="https://communityconnect.netlify.com/" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="View Online"
                        class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                        <i class="fa fa-external-link"></i>
                      </a>
-                     <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank" rel="noopener"
+                     <a aria-label="Visit GitHub Repository" href="https://github.com/codeforboston/communityconnect" target="_blank" rel="noopener noreferrer"
                         data-position="top" data-tooltip="View GitHub Repository"
                         class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                        <i class="fab fa-github"></i>
                      </a>
-                     <a aria-label="Visit Code for Boston" href="http://codeforboston.org/" target="_blank" rel="noopener"
+                     <a aria-label="Visit Code for Boston" href="http://codeforboston.org/" target="_blank" rel="noopener noreferrer"
                         data-position="top" data-tooltip="Visit Code for Boston"
                         class="btn-floating btn-large waves-effect waves-light purple tooltipped">
                         <img src="images/projects/c4b.jpeg" style="height: 40px; vertical-align: middle;">
@@ -575,7 +633,7 @@
                   <span class="card-title activator indigo-text hoverline">MemoReact
                     <i class="mdi-navigation-more-vert right"></i>
                   </span>
-                  <p>Memomy Game in React/Redux</p>
+                  <p>Memory Game in React/Redux</p>
                   <p>
                     My very first project for GA was an excruciatingly simple memory game tutorial.
                     About a year later, for an interesting learning experience, I re-wrote
@@ -595,11 +653,11 @@
                     <li><i class="devicon-sass-plain"></i>Sass</li>
                   </ul>
                   <div class="card-action">
-                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/memori/" target="_blank" rel="noopener"
+                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/memori/" target="_blank" rel="noopener noreferrer"
                         data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                       <i class="fa fa-external-link"></i>
                     </a>
-                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/memori/" target="_blank" rel="noopener"
+                    <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/memori/" target="_blank" rel="noopener noreferrer"
                         data-position="top" data-tooltip="Visit GitHub Repo" class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                       <i class="fab fa-github"></i>
                     </a>
@@ -639,17 +697,17 @@
                     <li><i class="devicon-google-plain"></i>Google Maps API</li>
                   </ul>
                   <div class="card-action">
-                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/bikon" target="_blank" rel="noopener"
+                    <a aria-label="Visit Online" href="https://acharliekelly.github.io/bikon" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="View Online"
                        class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                       <i class="fa fa-external-link"></i>
                     </a>
-                    <a aria-label="Visit Front-End GitHub Repository" href="https://github.com/acharliekelly/bikon" target="_blank" rel="noopener"
+                    <a aria-label="Visit Front-End GitHub Repository" href="https://github.com/acharliekelly/bikon" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="Visit Front-End GitHub Repository"
                        class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                       <i class="fab fa-github"></i>
                     </a>
-                    <a aria-label="Visit Back-End GitHub Repository" href="https://github.com/acharliekelly/bikon-api" target="_blank" rel="noopener"
+                    <a aria-label="Visit Back-End GitHub Repository" href="https://github.com/acharliekelly/bikon-api" target="_blank" rel="noopener noreferrer"
                        data-position="top" data-tooltip="Visit Back-End GitHub Repository"
                        class="btn-floating btn-large waves-effect waves-light blue tooltipped">
                       <i class="fab fa-github"></i>
@@ -693,17 +751,17 @@
                   <li><i class="fa fa-code"></i>mLab</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Online" href="https://wdi-3-0.github.io/nile-client" target="_blank" rel="noopener"
+                  <a aria-label="Visit Online" href="https://wdi-3-0.github.io/nile-client" target="_blank" rel="noopener noreferrer"
                      data-position="top" data-tooltip="View Online"
                      class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
-                  <a aria-label="Visit GitHub Repository for Front End" href="https://github.com/wdi-3-0/nile-client" target="_blank" rel="noopener"
+                  <a aria-label="Visit GitHub Repository for Front End" href="https://github.com/wdi-3-0/nile-client" target="_blank" rel="noopener noreferrer"
                      data-position="top" data-tooltip="Visit Front-End GitHub Repository"
                      class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                     <i class="fab fa-github"></i>
                    </a>
-                   <a aria-label="Visit GitHub Repository for Back End" href="https://github.com/wdi-3-0/nile-api" target="_blank" rel="noopener"
+                   <a aria-label="Visit GitHub Repository for Back End" href="https://github.com/wdi-3-0/nile-api" target="_blank" rel="noopener noreferrer"
                       data-position="top" data-tooltip="Visit Back End GitHub Repository"
                       class="btn-floating btn-large waves-effect waves-light blue tooltipped">
                     <i class="fab fa-github"></i>
@@ -742,12 +800,12 @@
                   <li><i class="devicon-nodejs-plain"></i>NodeJS</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Online" href="https://acharliekelly.github.io/ttt-client" target="_blank" rel="noopener"
+                  <a aria-label="Visit Online" href="https://acharliekelly.github.io/ttt-client" target="_blank" rel="noopener noreferrer"
                      data-position="top" data-tooltip="View Online"
                      class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
-                  <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/ttt-client" target="_blank" rel="noopener"
+                  <a aria-label="Visit GitHub Repository" href="https://github.com/acharliekelly/ttt-client" target="_blank" rel="noopener noreferrer"
                      data-position="top" data-tooltip="Visit GitHub Repository"
                      class="btn-floating btn-large waves-effect waves-light indigo tooltipped">
                     <i class="fab fa-github"></i>
@@ -779,7 +837,7 @@
                   <li><i class="devicon-php-plain"></i>PHP</li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit AANE website" href="https://aane.org" target="_blank" rel="noopener" data-position="top" data-tooltip="View Online"
+                  <a aria-label="Visit AANE website" href="https://aane.org" target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light teal tooltipped">
                     <i class="fa fa-external-link"></i>
                   </a>
@@ -979,13 +1037,13 @@
                 <h4 class="brown-text light">IDEs</h4>
                 <div class="row text-center">
                   <div class="col s4 m2">
+                    <img alt src="images/tech/vscode.png" class="responsive-img">VS Code
+                  </div>
+                  <div class="col s4 m2">
                     <img alt src="images/tech/eclipse.png" class="responsive-img">Eclipse
                   </div>
                   <div class="col s4 m2">
-                    <img alt src="images/tech/atom.png" class="responsive-img">Atom
-                  </div>
-                  <div class="col s4 m2">
-                    <img alt src="images/tech/vscode.png" class="responsive-img">VS Code
+                    <img alt src="images/tech/intellij.png" class="responsive-img">IntelliJ
                   </div>
                 </div>
               </div>
@@ -994,6 +1052,9 @@
               <div class="card-content">
                 <h4 class="brown-text light">Tools</h4>
                 <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img alt src="images/tech/maven.png" class="responsive-img">Maven
+                  </div>
                   <div class="col s4 m2">
                     <img alt src="images/tech/grunt.png" class="responsive-img">Grunt
                   </div>
@@ -1009,6 +1070,7 @@
                   <div class="col s4 m2">
                     <img alt src="images/tech/apache-logo.png" class="responsive-img">Apache
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -1022,14 +1084,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://generalassemb.ly" target="_blank" rel="noopener">
+                    <a class="logo" href="https://generalassemb.ly" target="_blank" rel="noopener noreferrer">
                       <img alt="GA Logo" class="responsive-img center-block" src="images/projects/ga.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://generalassemb.ly" target="_blank" rel="noopener">General Assembly</a>
+                        <a class="indigo-text hoverline" href="https://generalassemb.ly" target="_blank" rel="noopener noreferrer">General Assembly</a>
                       </span>
                     </p>
                   </div>
@@ -1046,14 +1108,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://www.charteroak.edu/" target="_blank" rel="noopener">
+                    <a class="logo" href="https://www.charteroak.edu/" target="_blank" rel="noopener noreferrer">
                       <img alt="Charter Oak Logo" class="responsive-img center-block" src="images/projects/cosc.jpeg">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://www.charteroak.edu/" target="_blank" rel="noopener">Charter Oak State College</a>
+                        <a class="indigo-text hoverline" href="https://www.charteroak.edu/" target="_blank" rel="noopener noreferrer">Charter Oak State College</a>
                       </span>
                     </p>
                   </div>
@@ -1071,14 +1133,14 @@
               <div class="card-content">
                 <div class="row">
                   <div class="col s12 m2">
-                    <a class="logo" href="https://www.qcc.edu/" target="_blank" rel="noopener">
+                    <a class="logo" href="https://www.qcc.edu/" target="_blank" rel="noopener noreferrer">
                       <img alt="QCC Logo" class="responsive-img center-block" src="images/projects/qcc.png">
                     </a>
                   </div>
                   <div class="col s12 m10">
                     <p>
                       <span class="card-title">
-                        <a class="indigo-text hoverline" href="https://www.qcc.edu/" target="_blank" rel="noopener">Quinsigamond Community College</a>
+                        <a class="indigo-text hoverline" href="https://www.qcc.edu/" target="_blank" rel="noopener noreferrer">Quinsigamond Community College</a>
                       </span>
                     </p>
                   </div>
@@ -1101,36 +1163,36 @@
               <a aria-label="Email Charlie" href="mailto:charliekelly31415@gmail.com" data-position="top" data-tooltip="Email Charlie"
                  class="btn-floating btn-large waves-effect waves-light red tooltipped">
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:charliekelly31415@gmail.com" target="_blank" rel="noopener" class="hoverline">charliekelly31415@gmail.com</a>
+                <a href="mailto:charliekelly31415@gmail.com" target="_blank" rel="noopener noreferrer" class="hoverline">charliekelly31415@gmail.com</a>
               </a>
             </p>
             <p>
-              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light red tooltipped">
+              <a aria-label="View Charlie on GitHub" href="http://github.com/acharliekelly" target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="View Charlie on GitHub" class="btn-floating btn-large waves-effect waves-light red tooltipped">
                 <i class="fab fa-github"></i>
-              <a alt="" href="http://github.com/acharliekelly" target="_blank" rel="noopener" class="hoverline">github.com/acharliekelly</a></a></p>
-            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light red tooltipped">
+              <a alt="" href="http://github.com/acharliekelly" target="_blank" rel="noopener noreferrer" class="hoverline">github.com/acharliekelly</a></a></p>
+            <p><a aria-label="View Charlie on LinkedIn" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener noreferrer" data-position="top" data-tooltip="View Charlie on LinkedIn" class="btn-floating btn-large waves-effect waves-light red tooltipped">
               <i class="fab fa-linkedin"></i>
-              <a class="hoverline" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener">linkedin.com/in/acharliekelly</a></a></p>
+              <a class="hoverline" href="http://linkedin.com/in/acharliekelly" target="_blank" rel="noopener noreferrer">linkedin.com/in/acharliekelly</a></a></p>
           </div>
         </section>
         <section id="resume" class="section scrollspy">
           <h3 class="page-title white-text black">Resume</h3>
           <div class="container">
             <p>
-              <a aria-label="Open PDF" href="./assets/docs/CharlieKelly_SeGen.PDF" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as PDF">
+              <a aria-label="Open PDF" href="./assets/docs/CKelly-SE.pdf" target="_blank" rel="noopener noreferrer" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as PDF">
                 <i class="fa fa-file-pdf"></i>
-                <a href="./assets/docs/CharlieKelly_SeGen.PDF" target="_blank" rel="noopener" class="hoverline">Open as PDF</a>
+                <a href="./assets/docs/CKelly-SE.pdf" target="_blank" rel="noopener noreferrer" class="hoverline">Open as PDF</a>
               </a>
             </p>
             <p>
-              <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as JSON">
+              <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener noreferrer" class="btn-floating btn-large waves-effect waves-dark black tooltipped"  data-position="top" data-tooltip="View Resume as JSON">
                 <i class="fa fa-file-code"></i>
-                <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener" class="hoverline">Open as JSON</a>
+                <a aria-label="Open JSON" href="./assets/docs/resume.json" target="_blank" rel="noopener noreferrer" class="hoverline">Open as JSON</a>
               </a>
             </p>
             <!-- TODO: transform JSON-->
             <!-- <p>
-              <a aria-label="Other Format" href="resume.html" target="_blank" rel="noopener" class="btn-floating btn-large waves-effect waves-dark grey tooltipped"  data-position="top" data-tooltip="View Resume">
+              <a aria-label="Other Format" href="resume.html" target="_blank" rel="noopener noreferrer" class="btn-floating btn-large waves-effect waves-dark grey tooltipped"  data-position="top" data-tooltip="View Resume">
                 <i class="fa fa-file-code"></i>
                 <span class="hoverline">Format TBD</span>
               </a>
