@@ -3,9 +3,9 @@
   "title": "Software Engineer",
   "contact-info": {
     "address": {
-      "city": "Woburn",
+      "city": "Melrose",
       "state": "MA",
-      "zip-code": "01801"
+      "zip-code": "02176"
     },
     "phone": "(508) 340-7792",
     "email": "charliekelly31415@gmail.com",
@@ -14,16 +14,30 @@
       "linkedin": "https://linkedin.com/in/acharliekelly"
     }
   },
-  "summary": "Motivated Software Engineer with extensive experience in front and back end application development for multiple industries, with particular expertise in React component design and API integration. Flexible; quick to learn and master new technologies. Creative, detail-oriented, enthusiastic team player.",
+  "summary": "Motivated Software Engineer with extensive experience in front and back end application development for multiple industries. Flexible; quick to learn and master new technologies. Creative, detail-oriented, enthusiastic team player.",
   "skills": {
-    "languages": [ "JavaScript", "Java", "Ruby", "Shell" ],
-    "front-end": [ "React", "JQuery", "HTML5", "CSS3", "Sass", "Bootstrap" ],
-    "back-end": [ "Node", "Express", "REST", "SQL", "MongoDB", "FaunaDB" ],
+    "languages": [ "Java", "JavaScript", "TypeScript", "Bash" ],
+    "front-end": [ "React", "JQuery", "HTML5", "CSS3", "Sass", "Bootstrap", "Material UI" ],
+    "back-end": [ "Tomcat", "Wildfly", "Spring", "Node", "Express", "REST", "SQL", "MongoDB" ],
     "testing": [ "Jest", "Storybook", "Selenium" ],
-    "services": [ "Cloudinary", "S3", "Heroku", "GitHub", "Netlify", "Firebase" ],
-    "tools": [ "VS Code", "Eclipse", "Grunt", "Webpack", "NPM", "CLI" ]
+    "services": [ "Cloudinary", "S3", "Heroku", "GitHub", "Netlify" ],
+    "tools": [ "VS Code", "Eclipse", "IntelliJ", "Webpack", "NPM", "CLI" ]
   },
   "work-experience": [
+    {
+      "company": {
+        "name": "Percussion Software",
+        "location": "Burlington, MA",
+        "website": "https://percussion.com/"
+      },
+      "role": "Success Engineer",
+      "start-date": "2021-11-02",
+      "achievements": [
+        "Primary engineer on $80M federal contract to migrate two SSA subdomains (ChooseWork and YourTicketToWork) to Azure Cloud, without config files or documentation from incumbent contractor; migrated CMS for both sites, as well as 8 custom Java apps",
+        "Provide daily expert support for 30+ institutional and government CMS customers",
+        "Author and execute manual and automated QA for product features and upgrades"
+      ]
+    },
     {
       "company": {
         "name": "Code for Boston",
@@ -32,7 +46,7 @@
       },
       "role": "Software Engineer (volunteer)",
       "start-date": "2019-01-14",
-      "end-date": "2020-08-28",
+      "end-date": "2022-02-28",
       "achievements": [
         "Contributed to multiple projects for the betterment of the community, both by writing code to solve specific problems and by reviewing PRs and documenting issues.",
         "Participated in rigorous Agile process for project development; encourage professional standards among other contributors",
@@ -51,20 +65,6 @@
       "achievements": [
         "Created and led design team in building a web site/ application to display and sell art work with no overhead costs and minimal setup, using modular React components",
         "Leveraged existing free-tier APIs for zero-cost back-end"
-      ]
-    },
-    {
-      "company": {
-        "name": "ScoreBase",
-        "location": "Waltham, MA"
-      },
-      "role": "Consultant",
-      "start-date": "2020-05-01",
-      "end-date": "2020-06-01",
-      "achievements": [
-        "Helped finalize UX design for FinTech startup app",
-        "Created authentication and Firebase integration",
-        "Configured CI pipeline for ongoing development and testing"
       ]
     },
     {
