@@ -55,6 +55,11 @@ ul.side-nav.fixed a {
 	line-height: 100%;
 	padding: 10px 0 12px;
 }
+li.logo {
+  background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/icon/logo.png);
+  background-blend-mode: lighten;
+  background-clip: padding-box;
+}
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
 	border: none;
