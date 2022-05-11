@@ -114,13 +114,6 @@ h3 {
 /* SECTIONS */
 
 /* #INTRO */
-/* #intro.section {
-	position: relative;
-	background-image: url((https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-} */
 #intro.section .container {
 	color: white;
 	font-weight: 200;
@@ -246,16 +239,16 @@ h3 {
 }
 .card ul li li {
   color: #666;
-  font-size: 13px;
+  font-size: 1rem;
 }
 .card .card-title {
-	font-size: 24px;
+	font-size: 2rem;
 }
 .card .card-content .card-title {
 	line-height: 2.5rem
 }
 .card i.right {
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 a.hoverline {
 	/* border-bottom: 3px solid transparent !important; */
@@ -425,12 +418,12 @@ small { display: none;}
     line-height: 20px;
 	}
 	.name-title a {
-    font-size: 22px;
+    font-size: 2rem;
     display: block;
 	}
 	.name-title span {
     display: block;
-    font-size: 14px;
+    font-size: 1.1rem;
 	}
 	h3,
 	.container {
@@ -448,7 +441,7 @@ small { display: none;}
 }
 @media (max-width: 600px) {
 	h2 {
-	  font-size: 22px;
+	  font-size: 2rem;
 	  line-height: 200%;
 	  margin: 30px 0 0;
 	}
@@ -456,7 +449,7 @@ small { display: none;}
 		padding: 0;
 	}
 	.card .card-content .card-title {
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 24px;
 	}
 	#experience span.card-title {
