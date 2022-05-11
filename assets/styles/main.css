@@ -361,7 +361,7 @@ small { display: none;}
 }
 @media (max-width: 1360px) {
 	.card ul li {
-		font-size: 14px;
+		font-size: 2rem;
 		line-height: 200%;
 		margin-left: 20px;
 	}
