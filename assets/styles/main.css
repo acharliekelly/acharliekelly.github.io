@@ -40,7 +40,7 @@ main #intro .overlay {
 	background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/e_auto_contrast/v1572065281/art/boston_nightscape.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 }
 ul.side-nav {
 	width: 190px;
@@ -188,6 +188,7 @@ h3 {
 }
 .card .card-content {
 	padding-bottom: 30px;
+  background-color: white;
 }
 .card .card-content p {
 	padding: 5px 0 0;
