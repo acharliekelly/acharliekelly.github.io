@@ -96,11 +96,12 @@
         <section id="about" class="section scrollspy">
           <h3 class="page-title white-text purple">About</h3>
           <div class="container flow-text">
-            <p>I'm a software engineer based in Boston, MA.</p>
-            <p>My most recent project was rebuilding ChooseWork, the site for Social Security beneficiaries who
-              want to rejoin the workforce. Before that, I was a Social Security beneficiary who wanted to rejoin
-              the workforce. Interestingly, the second fact has nothing to do with the first; it's just a fun
-              coincidence.
+            <p>I'm a fullstack software engineer based in Boston, MA.</p>
+            <p>My skill set is mostly Java &amp; Spring on the back, ReactJS on the front. 
+              For a detailed list of technologies with which I'm familiar, see my <a href="#skills">Skills</a> section.</p>
+            <p>My most recent project was a Spring-based microservice app that connected various internal data sources
+              to help Ameritas pay its agents. Before that, I rebuilt ChooseWork, the site for Social Security beneficiaries who
+              want to rejoin the workforce. More <a href="#experience">work experiences</a> below.
             </p>
 
         </section>
@@ -109,6 +110,40 @@
         <section id="experience" class="section scrollspy">
           <h3 class="page-title white-text indigo">Experience</h3>
           <div class="container">
+            <!-- Ameritas -->
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m2">
+                    <a href="https://www.ameritas.com" target="_blank" rel="noopener noreferrer">
+                      <img alt="Ameritas" class="responsive-img center-block" src="https://res.cloudinary.com/cantimaginewhy/image/upload/v1709157268/folio/projects/ameritas_logo.jpg">
+                    </a>
+                  </div>
+                  <div class="col s12 m10">
+                    <p>
+                      <span class="card-title">
+                        <a href="https://www.ameritas.com" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Ameritas</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="role brown-text">Senior Software Engineer</div>
+                <p><em>Life Insurance</em></p>
+                <h6>Accomplishments</h6>
+                <ul>
+                  <li>Provided technical leadership for team of 4 on J2EE Spring microservices app that handles
+$15M/week in agent compensation, based on data from multiple sources including SFTP, REST, SOAP, and SQL</li>
+                  <li>Created new project architecture (Spring Boot + RabbitMQ) allowing rapid development of new data services</li>  
+                  <li>Developed build pipeline (BitBucket, Gradle, Jenkins, JUnit, SonarQube, NexusIQ, Docker, and Kubernetes) for getting JIRA requirements to QA on schedule</li>
+                  <li>Devised and enforced code standards, Git procedures, and test coverage requirements for my team</li>  
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>October 2022 - January 2024 | Remote</span>
+              </div>
+            </div>
+
+
             <!-- Percussion -->
             <div class="card">
               <div class="card-content">
@@ -126,50 +161,18 @@
                     </p>
                   </div>
                 </div>
-                <div class="role brown-text">Success Engineer</div>
+                <div class="role brown-text">Software Engineer</div>
                 <p><em>Content Management Software</em></p>
                 <h6>Accomplishments</h6>
                 <ul>
-                  <li>Primary engineer on $80M federal contract to migrate two SSA subdomains (ChooseWork and YourTicketToWork)
-                    to Azure Cloud, without config files or documentation from incumbent contractor; migrated CMS for both sites,
-                    as well as 7 custom Java apps</li>
-                  <li>Provide daily expert support for 30+ institutional and government CMS customers</li>
-                  <li>Author and execute manual and automated QA for product features and upgrades </li>
+                  <li>Primary engineer on $80M federal contract to migrate two SSA subdomains to Azure Cloud, plus 4 legacy J2EE apps; re-engineered site search functionality using JSP and search.gov</li>
+                  <li>Built custom integration to synchronize customer&apos;s LDAP with CMS directory, using Java REST client; wrote extensive unit and integration tests plus deployment</li>
+                  <li>Provided daily expert support for 30+ institutional and government CMS customers</li>
+                  <li>Created and executed QA scripts for product features and upgrades</li>
                 </ul>
               </div>
               <div class="card-action">
-                <span>November 2022 - Present</span>
-              </div>
-            </div>
-
-            <!-- Can't Imagine Why -->
-            <div class="card">
-              <div class="card-content">
-                <div class="row">
-                  <div class="col s12 m2">
-                    <a href="https://cantimaginewhy.com" target="_blank" rel="noopener noreferrer">
-                      <img alt="Can't Imagine Why" class="responsive-img center-block" src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/projects/ck.png">
-                    </a>
-                  </div>
-                  <div class="col s12 m10">
-                    <p>
-                      <span class="card-title">
-                        <a href="https://cantimaginewhy.com" target="_blank" rel="noopener noreferrer" class="indigo-text hoverline">Can't Imagine Why</a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div class="role brown-text">Software Engineer / Artist</div>
-                <p><em>Site to display and sell artwork and derived products</em></p>
-                <h6>Accomplishments</h6>
-                <ul>
-                  <li>Assembled team of UX designers and developers</li>
-                  <li>Created React-based application that relies exclusively on free-tier commercial APIs for
-                    back-end, eliminating operating costs to the owner</li>
-                </ul>
-              </div>
-              <div class="card-action">
-                <span>July 2019 - August 2020</span>
+                <span>May 2020 - September 2022 | Remote</span>
               </div>
             </div>
 
@@ -194,7 +197,7 @@
                 <p><em>Start-up creating a platform for live video tutoring</em></p>
                 <h6>Accomplishments</h6>
                 <ul>
-                  <li>Created TypeScript-based React components for start-up’s video tutoring platform</li>
+                  <li>Created TypeScript-based React components for start-up&apos;s video tutoring platform</li>
                   <li>Developed independent component tests in Storybook for assessing performance outside deployed application</li>
                 </ul>
               </div>
@@ -561,7 +564,7 @@
             <!-- Cant Imagine Why -->
             <div id="project-cantimaginewhy" class="card horizontal">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img alt="Can't Imagine Why Logo" src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/screenshots/cantimaginewhy.png" class="activator">
+                  <img alt="Can't Imagine Why Logo" src="https://res.cloudinary.com/cantimaginewhy/image/upload/v1661728306/folio/screenshots/artwork-scrn.png" class="activator">
                 </div>
                 <div class="card-content">
                   <span class="card-title activator indigo-text hoverline">Can't Imagine Why
@@ -726,19 +729,16 @@
                 <h4 class="brown-text light">Languages</h4>
                 <div class="row text-center">
                   <div class="col s4 m2">
+                    <div class="col s4 m2">
+                      <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/java.jpg" class="responsive-img">Java
+                    </div>
                     <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/javascript.png" class="responsive-img">JavaScript
                   </div>
                   <div class="col s4 m2">
                     <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/typescript.png" class="responsive-img">TypeScript
                   </div>
                   <div class="col s4 m2">
-                    <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/java.jpg" class="responsive-img">Java
-                  </div>
-                  <div class="col s4 m2">
                     <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/bash.png" class="responsive-img">Bash
-                  </div>
-                  <div class="col s4 m2">
-                    <img alt src="https://res.cloudinary.com/cantimaginewhy/image/upload/folio/tech/php.png" class="responsive-img">PHP
                   </div>
                 </div>
               </div>
