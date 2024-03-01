@@ -1,198 +1,304 @@
 {
-  "name": "Charlie Kelly",
-  "title": "Software Engineer",
-  "contact-info": {
-    "address": {
-      "city": "Melrose",
-      "state": "MA",
-      "zip-code": "02176"
-    },
-    "phone": "(508) 340-7792",
-    "email": "charliekelly31415@gmail.com",
-    "links": {
-      "portfolio": "https://acharliekelly.github.io",
-      "linkedin": "https://linkedin.com/in/acharliekelly"
-    }
-  },
-  "summary": "Motivated Software Engineer with extensive experience in front and back end application development for multiple industries. Flexible; quick to learn and master new technologies. Creative, detail-oriented, enthusiastic team player.",
-  "skills": {
-    "languages": [ "Java", "JavaScript", "TypeScript", "Bash" ],
-    "front-end": [ "React", "JQuery", "HTML5", "CSS3", "Sass", "Bootstrap", "Material UI" ],
-    "back-end": [ "Tomcat", "Wildfly", "Spring", "Node", "Express", "REST", "SQL", "MongoDB" ],
-    "testing": [ "Jest", "Storybook", "Selenium" ],
-    "services": [ "Cloudinary", "S3", "Heroku", "GitHub", "Netlify" ],
-    "tools": [ "VS Code", "Eclipse", "IntelliJ", "Webpack", "NPM", "CLI" ]
-  },
-  "work-experience": [
-    {
-      "company": {
-        "name": "Percussion Software",
-        "location": "Burlington, MA",
-        "website": "https://percussion.com/"
-      },
-      "role": "Success Engineer",
-      "start-date": "2021-11-02",
-      "achievements": [
-        "Primary engineer on $80M federal contract to migrate two SSA subdomains (ChooseWork and YourTicketToWork) to Azure Cloud, without config files or documentation from incumbent contractor; migrated CMS for both sites, as well as 8 custom Java apps",
-        "Provide daily expert support for 30+ institutional and government CMS customers",
-        "Author and execute manual and automated QA for product features and upgrades"
-      ]
-    },
-    {
-      "company": {
-        "name": "Code for Boston",
-        "location": "Boston, MA",
-        "website": "https://www.codeforboston.org/"
-      },
-      "role": "Software Engineer (volunteer)",
-      "start-date": "2019-01-14",
-      "end-date": "2022-02-28",
-      "achievements": [
-        "Contributed to multiple projects for the betterment of the community, both by writing code to solve specific problems and by reviewing PRs and documenting issues.",
-        "Participated in rigorous Agile process for project development; encourage professional standards among other contributors",
-        "Assisted in onboarding new volunteers, explaining workflows and mentoring junior developers"
-      ]
-    },
-    {
-      "company": {
-        "name": "Can't Imagine Why",
-        "location": "Waltham, MA",
-        "website": "https://cantimaginewhy.com"
-      },
-      "role": "Software Engineer",
-      "start-date": "2019-07-01",
-      "end-date": "2020-08-01",
-      "achievements": [
-        "Created and led design team in building a web site/ application to display and sell art work with no overhead costs and minimal setup, using modular React components",
-        "Leveraged existing free-tier APIs for zero-cost back-end"
-      ]
-    },
-    {
-      "company": {
-        "name": "Live Online Video Learning",
-        "location": "Boston, MA"
-      },
-      "role": "Consultant",
-      "start-date": "2019-04-21",
-      "end-date": "2019-07-01",
-      "achievements": [
-        "Created TypeScript-based React components for start-up’s video tutoring platform using MongoDB and REST APIs",
-        "Developed independent component tests in Storybook for assessing performance outside deployed application",
-        "Authored continuous integration and unit tests"
-      ]
-    },
-    {
-      "company": {
-        "name": "WeCanTest!",
-        "location": "Acton, MA",
-        "website": "http://wecantest.com"
-      },
-      "role": "QA Engineer",
-      "start-date": "2017-07-01",
-      "end-date": "2018-09-01",
-      "achievements": [
-        "Developed automated regression test suites in Java for production web and mobile applications using Selenium and Appium implementations with Apache Maven",
-        "Developed CI/CD tests for deployment both locally and with Jenkins and AWS"
-      ]
-    },
-    {
-      "company": {
-        "name": "Asperger/Autism Network",
-        "location": "Watertown, MA",
-        "website": "http://aane.org"
-      },
-      "role": "IT Specialist",
-      "start-date": "2012-07-12",
-      "end-date": "2019-01-28",
-      "achievements": [
-        "Provided operational and development support for technical needs of non-profit, including network management, system integration, database development and maintaining website",
-        "Dramatically improved information security by implementing and administering password management and centralized authentication rules; security remediation tools"
-      ]
-    },
-    {
-      "company": {
-        "name": "Costedio Design",
-        "location": "Sarasota, FL",
-        "website": "http://www.katrinacostedio.com/"
-      },
-      "role": "Technical Director",
-      "start-date": "2008-04-18",
-      "end-date": "2012-06-01",
-      "achievements": [
-        "Designed and constructed over 25 sites for small business and non-profit customers, using HTML, CSS, JavaScript, and JQuery, as well as WordPress",
-        "Worked closely with customers to analyze goals and discuss options based on range of budgets",
-        "Directed and oversaw duties of additional web programmers and subcontractors",
-        "Participated in creative design process as well as planning best technical approach."
-      ]
-    },
-    {
-      "company": {
-        "name": "Open Service",
-        "location": "Marlborough, MA"
-      },
-      "role": "Senior Software Engineer",
-      "start-date": "2007-01-29",
-      "end-date": "2008-04-06",
-      "achievements": [
-        "Principal front-end developer for an enterprise network security and threat detection suite, using J2EE and JSF",
-        "Converted Applet-based interface into completely new platform using Java Server Faces",
-        "Advocated and successfully achieved migration of product away from applet-based interfaces towards Ajax, resulting in significant improvement in customer satisfaction",
-        "Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications."
-      ]
-    },
-    {
-      "company": {
-        "name": "Mediasurface",
-        "location": "Stamford, CT",
-        "website": "https://www.thomsonreuters.com/en.html"
-      },
-      "role": "Software Engineer",
-      "start-date": "2006-05-20",
-      "end-date": "2007-01-08",
-      "achievements": [
-        "Worked with project team to design and implement custom public-facing Content Management System for Thomson-Reuters (now Reuters)",
-        "Quickly mastered API for proprietary CMS platform",
-        "Integrated into team of consultants and client employees to build brand new public website for multinational media giant within narrow time frame",
-        "Built numerous JSP-based components to plug into framework"
-      ]
-    },
-    {
-      "company": {
-        "name": "Coface Services",
-        "location": "New Haven, CT",
-        "website": "https://www.coface-usa.com/"
-      },
-      "role": "Software Engineer",
-      "start-date": "2003-08-21",
-      "end-date": "2005-10-31",
-      "achievements": [
-        "Developed over 20 internal business applications based on Oracle back-end with VB or JSP Projects ranged from tiny VB/MS Access apps that offered users access to database, to enterprise-wide web-based reporting solutions",
-        "Went above and beyond project requirements by creating enjoyable user experiences."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "school": {
-        "name": "General Assembly",
-        "location": "Boston, MA",
-        "website": "https://generalassemb.ly"
-      },      
-      "start-date": "2019-01-28",
-      "end-date": "2019-04-19",
-      "program": "Web Development Immersive Fellowship",
-      "degree": "Certificate"
-    },
-    {
-      "school": {
-        "name": "Charter Oak State College",
-        "location": "New Britain, CT",
-        "website": "https://www.charteroak.edu/"
-      },
-      "start-date": "2016-01-16",
-      "end-date": "2017-05-29",
-      "program": "Information Systems",
-      "degree": "B.S."
-    }
-  ]
+	"basics": {
+		"name": "Charlie Kelly",
+		"label": "Senior Software Engineer",
+        "image": "https://res.cloudinary.com/cantimaginewhy/image/upload/v1709326527/me/head-autumn.jpg",
+		"email": "charliekelly31415@gmail.com",
+		"phone": "(508) 340-7792",
+        "degree": "B.S.",
+		"url": "https://acharliekelly.github.io",
+		"summary": "Senior Software Engineer with over 12 years experience in all aspects of software development, including requirements analysis, unit and functional testing, creating complete and understandable documentation, and performing peer review analysis. Dedicated to creating accurate software that meets or exceeds all client requirements, while also providing sustainability for future enhancements. Committed to inspiring myself and my colleagues to continue to grow in the profession.",
+		"location": {
+			"postalCode": "02176",
+			"city": "Melrose",
+			"countryCode": "US",
+			"region": "Massachusetts"
+		},
+		"profiles": [
+			{
+			"network": "LinkedIn",
+			"username": "acharliekelly",
+			"url": "https://linkedin.com/in/acharliekelly"
+			},
+			{
+				"network": "GitHub",
+				"username": "acharliekelly",
+				"url": "https://github.com/acharliekelly"
+			},
+            {
+                "network": "HackerRank",
+                "username": "acharliekelly",
+                "url": "https://hackerrank.com/acharliekelly"
+            },
+            {
+                "network": "gitconnected",
+                "username": "acharliekelly",
+                "url": "https://gitconnected.com/acharliekelly"
+            }
+		]
+	},
+	"work": [
+		{
+			"name": "Ameritas",
+			"position": "Senior Software Engineer",
+			"url": "https://ameritas.com",
+			"startDate": "2022-10-01",
+			"endDate": "2024-01-31",
+			"summary": "Technical lead for team developing internal data microservices",
+			"highlights": [
+				"Led 4 Java developers to build Spring Boot microservices app that handles $15M/week in agent compensation, based on data from multiple sources including SFTP, REST, SOAP, and SQL",
+				"Created new project architecture (Spring Boot + RabbitMQ) allowing rapid development of new data services",
+				"Developed build pipeline (BitBucket, Gradle, Jenkins, JUnit, SonarQube, NexusIQ, Docker, and Kubernetes) for getting JIRA requirements to QA on schedule",
+				"Devised and enforced code standards, Git procedures, and test coverage requirements for my team"
+			]
+		},
+		{
+			"name": "Percussion Software",
+			"position": "Software Engineer",
+			"url": "https://percussion.com",
+			"startDate": "2020-05-14",
+			"endDate": "2022-09-01",
+			"summary": "Engineered solutions for Percussion CMS customers, ranging from small colleges to Social Security Administration",
+			"highlights": [
+				"Primary engineer on $80M federal contract to migrate two SSA subdomains to Azure Cloud, plus 4 legacy J2EE apps; re-engineered site search functionality using JSP and search.gov",
+                "Built custom integration to synchronize customer’s LDAP with CMS directory, using Java REST client; wrote extensive unit and integration tests plus deployment",
+                "Provided daily expert support for 30+ institutional and government CMS customers",
+                "Created and executed QA scripts for product features and upgrades"
+			]
+		},
+        {
+            "name": "Association for Autism and Neurodiversity",
+            "position": "IT Manager",
+            "url": "https://aane.org",
+            "startDate": "2012-07-12",
+            "endDate": "2019-12-16",
+            "summary": "Operational technical support",
+            "highlights": [
+                "Provided operational and development support for technical needs of non-proﬁt, including network management, system integration, and website maintenance",
+	            "Dramatically improved information security by implementing and administering password management and centralized authentication rules"
+            ]
+        },
+        {
+            "name": "Costedio Design",
+            "position": "Web Developer",
+            "startDate": "2008-04-06",
+            "endDate": "2012-06-10",
+            "summary": "Cofounder and technical director for small web design firm",
+            "highlights": [
+                "Designed and built 23 different sites for small business and non-proﬁt customers, using HTML, CSS, JavaScript, and JQuery, as well as WordPress",
+	            "Worked with customers to analyze goals and discuss options for a range of budgets",
+                "Directed and oversaw duties of additional web programmers and subcontractors",
+	            "Participated in creative design process and choosing best technology for each project"
+            ]
+        },
+        {
+            "name": "OpenService",
+            "position": "Senior Software Engineer",
+            "startDate": "2007-01-14",
+            "endDate": "2008-04-06",
+            "summary": "Principal front-end developer for network security and threat detection suite",
+            "highlights": [
+                "Responsible for UI for two major releases of flagship security product",
+	            "Converted applet-based interface into new platform using Java Server Faces",
+	            "Spearheaded migration of product from applets to AJAX, resulting in signiﬁcant improvement in customer satisfaction"
+            ]
+        },
+        {
+            "name": "MediaSurface",
+            "position": "Software Engineer",
+            "url": "https://www.thomsonreuters.com",
+            "startDate": "2005-12-20",
+            "endDate": "2007-01-18",
+            "summary": "Rebuilt public-facing news site on proprietary CMS platform",
+            "highlights": [
+                "Worked with project team to design and implement public-facing website for Thomson/Reuters",
+	            "Collaborated with consultants and client employees to build brand new public website for multinational media giant within narrow timeframe"
+            ]
+        },
+        {
+            "name": "Coface Services",
+            "position": "Application Developer",
+            "url": "https://www.coface-usa.com",
+            "startDate": "2003-08-18",
+            "endDate": "2005-11-04",
+            "summary": "Developed multiple internal business applications for credit insurance agency",
+            "highlights": [
+                "Developed over 20 internal business applications, ranging from MS Ofﬁce-based apps to company-wide, web-accessible solutions built on Oracle and J2EE"
+            ]
+        }
+	],
+	"volunteer": [{
+            "organization": "Code for Boston",
+            "position": "Software Engineer",
+            "url": "https://www.codeforboston.org",
+            "startDate": "2019-01-21",
+            "endDate": "2022-11-01",
+            "summary": "A volunteer civic innovation organization, part of the Code for America Brigades",
+            "highlights": [
+                "Contributed to multiple community projects, both by writing code to solve speciﬁc problems and by reviewing PRs and documenting issues",
+	            "Participated in rigorous Agile process for project development; encouraged professional standards among other contributors",
+	            "Assisted in onboarding new volunteers, explaining workﬂows and mentoring junior developers"
+            ]
+        }
+    ],
+	"education": [
+        {
+            "institution": "General Assembly Boston",
+            "url": "https://generalassemb.ly",
+            "area": "Web Development Immersive",
+            "studyType": "Certificate",
+            "startDate": "2019-01-21",
+            "endDate": "2019-04-19"
+        },
+        {
+            "institution": "Charter Oak State College",
+            "url": "https://www.charteroak.edu",
+            "area": "Information Systems",
+            "studyType": "Bachelors",
+            "startDate": "2016-01-22",
+            "endDate": "2017-05-18",
+            "score": "3.683"
+        },
+        {
+            "institution": "Quinsigamond Community College",
+            "url": "https://www.qcc.edu",
+            "area": "Information Systems",
+            "studyType": "Associates",
+            "startDate": "2001-09-01",
+            "endDate": "2002-05-17",
+            "score": "3.43"
+        }
+    ],
+	"skills": [
+        {
+            "name": "Front End",
+            "level": "Mid-level",
+            "keywords": [
+                "HTML", "CSS", "Bootstrap", "React", "jQuery", "JavaScript"
+            ]
+        },
+        {
+            "name": "Back End",
+            "level": "Master",
+            "keywords": [
+                "Java", "Spring Boot", "REST", "SOAP"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "level": "",
+            "keywords": [
+                "Git", "GitHub", "BitBucket"
+            ]
+        },
+        {
+            "name": "Testing",
+            "level": "Mid-level",
+            "keywords": [
+                "JUnit", "Jest", "Selenium", "Storybook"
+            ]
+        },
+        {
+            "name": "Development Tools",
+            "level": "",
+            "keywords": [
+                "Maven", "Gradle", "Jenkins", "IntelliJ", "VS Code", "SonarQube", "Eclipse"
+            ]
+        },
+        {
+            "name": "Database",
+            "level": "Master",
+            "keywords": [
+                "SQL", "Oracle", "MySQL", "NoSQL", "Snowflake", "MongoDB"
+            ]
+        }
+    ],
+	"interests": [{
+        "name": "Visual Art",
+        "keywords": [
+            "painting", "acrylic", "landscape", "plein air"
+        ]
+    }],
+	"projects": [
+        {
+            "name": "CantImagineWhy",
+            "startDate": "2019-05-12",
+            "endDate": "2020-02-19",
+            "description": "React-based artist porfolio",
+            "highlights": [
+                "Expanded bootcamp project to include UX team to create web application to display original artwork",
+	            "Leveraged existing free-tier frameworks and APIs to eliminate backend costs"
+            ],
+            "url": "https://cantimaginewhy.com"
+        },
+        {
+            "name": "Ticket to Work (SSA)",
+            "startDate": "2021-11-14",
+            "endDate": "2022-06-20",
+            "description": "SSA program for Disability recipients",
+            "highlights": [
+                "Migrated site content for 2 subdomains to Azure Cloud (choosework.ssa.gov and yourtickettowork.ssa.gov)",
+                "Rebuilt multiple custom J2EE web apps",
+                "Configured and thoroughly tested IIS access rules",
+                "Successfully passed FedRAMP certification"
+            ],
+            "url": "https://choosework.ssa.gov"
+        },
+        {
+            "name": "Ticket-To-Work Search (SSA)",
+            "startDate": "2021-11-14",
+            "endDate": "2022-06-20",
+            "description": "Site-wide search functionality",
+            "highlights": [
+                "Replaced clunky SOLR/Nutch implementation",
+                "Created Search.gov consumer to perform search without backend"
+            ],
+            "url": "https://choosework.ssa.gov/search/?query=work"
+        },
+        {
+            "name": "Work Incentive Seminar Events (SSA)",
+            "startDate": "2021-11-14",
+            "endDate": "2022-06-20",
+            "description": "Webinar Signup app",
+            "highlights": [
+                "One of several custom webapps rebuilt as part of SSA migration",
+                "Allows disability recipients to sign up for webinars",
+                "Tomcat-based app links to Adobe Connect"
+            ],
+            "url": "https://choosework.ssa.gov/wise/"
+        },
+        {
+            "name": "TTW FindHelp (SSA)",
+            "startDate": "2021-11-14",
+            "endDate": "2022-06-20",
+            "description": "Agency search and filtering app",
+            "highlights": [
+                "Helps disability recipients locate rehabilitation services based on search criteria",
+                "Runs on Wildfly server connected to Oracle sources"
+            ],
+            "url": "https://choosework.ssa.gov/findhelp/result?option=directSearch"
+        },
+        {
+            "name": "National Police Data Coalition (Code for Boston)",
+            "startDate": "2021-03-01",
+            "endDate": "2024-02-29",
+            "description": "A national archive of police data collected by journalists, lawyers, and activists around the country.",
+            "highlights": [
+                "Authored multiple React TypeScript components",
+                "Created Storybook integration and defined acceptance guidelines"
+            ],
+            "url": "https://www.nationalpolicedata.org/"
+        },
+        {
+            "name": "Community Connect (Code for Boston)",
+            "startDate": "2018-08-16",
+            "endDate": "2022-02-28",
+            "description": "A tool for connecting those in need to services or materials that improve their quality of life.",
+            "highlights": [
+                "App uses Google Sheet as data source",
+                "Provides local resources to clients from simple URL; no user data is ever stored"
+            ],
+            "url": "https://github.com/codeforboston/communityconnect"
+        }
+    ]
 }
